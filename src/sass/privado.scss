@@ -1,0 +1,45 @@
+*{
+  .row {
+    width: 100vw;
+  }
+}
+header{
+  margin-top: 3%;
+  .fa, .fas {
+    font-weight: 800;
+    font-size: 100%;
+  }
+}
+
+footer{
+  position: absolute;
+  bottom: 0%;
+
+  #sinap{
+    text-align: justify;
+  }
+  i{
+    font-size: 200%;
+    margin-left: 5%;
+  }
+}
+#grad {
+  background-image: linear-gradient(to right, #FF5000 , #FFCD00);
+  width: 100vw;
+  height: 150px;
+  #pgrad {
+    color: white;
+    margin-top: 3%;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+.card{
+  position: absolute;
+  margin-top: -3%;
+  z-index: 2;
+  background-color: white;
+}
