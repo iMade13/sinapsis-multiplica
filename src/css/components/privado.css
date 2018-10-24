@@ -1,25 +1,20 @@
-* .row {
-  width: 100vw; }
-
-* .col {
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -ms-flex-positive: 1;
-  flex-grow: 0;
-  max-width: 100%; }
-
 header {
   margin-top: 3%; }
   header .fa, header .fas {
     font-weight: 800;
     font-size: 100%; }
 
-footer #sinap {
-  text-align: justify; }
-
-footer i {
-  font-size: 200%;
-  margin-left: 5%; }
+footer {
+  margin-top: 5%; }
+  footer #sinap {
+    text-align: justify; }
+  footer i {
+    font-size: 200%;
+    margin-left: 5%; }
+  footer #icon {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
 
 #grad {
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
@@ -36,3 +31,9 @@ footer i {
 
 #cards {
   margin-top: -2%; }
+
+#quest {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%; }
