@@ -22,26 +22,28 @@ footer{
     margin-top: auto;
   }
 }
+
 #grad {
-  background-image: linear-gradient(to right, #FF5000 , #FFCD00);
-  width: 100vw;
-  height: 150px;
-  #pgrad {
-    color: white;
-    margin-top: 3%;
-    font-size: 150%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-}
-#cards{
-  margin-top: -2%;
+    background-image: linear-gradient(to right, #FF5000, #FFCD00);
+    width: 100vw;
+    height: 150px;
+    #pgrad {
+        color: white;
+        margin-top: 3%;
+        font-size: 150%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 #quest{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+#cards {
+    margin-top: -2%;
 }
