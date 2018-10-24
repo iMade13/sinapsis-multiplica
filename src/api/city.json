@@ -1,0 +1,83 @@
+{
+	"city": [
+		{
+			"name": "Barcelona",
+			"address": "Passeig de Sant Joan 2 Entl. 1ª 08010 Barcelona",
+			"phone": "(+34) 932.492.070",
+			"mail": "barcelona@multiplica.com"
+		},
+		{
+			"name": "Berlín",
+			"address": "Wattstrasse 11, 13355 Berlin, Germany",
+			"phone": "(+49) 305.490.7876",
+			"mail": "jan@multiplica.com"
+		},
+		{
+			"name": "Bogotá",
+			"address": "Calle 93 #19-55 110221 Bogotá DC",
+			"phone": "(+57)300.738.0567",
+			"mail": "bogota@multiplica.com"
+		},
+		{
+			"name": "Buenos Aires",
+			"address": "Gorriti 6046 Oficina 206 Palermo, Buenos Aires.",
+			"phone": "(+54) 9.11.5490.4112",
+			"mail": "buenosaires@multiplica.com"
+		},
+		{
+			"name": "Ciudad de México",
+			"address": "Horacio 1840, PH Col. Polanco – 11510",
+			"phone": "(+52) 55.6821.2015",
+			"mail": "mexico@multiplica.com"
+		},
+		{
+			"name": "Guayaquil",
+			"address": "Urdesa, Bálsamos 118 y Única Guayaquil, Ecuador.",
+			"phone": "(+593) 998111044",
+			"mail": "camila@multiplica.com"
+		},
+		{
+			"name": "Lima",
+			"address": "Germán Schreiber, 205 Of. 4 San Isidro. Lima",
+			"phone": "(+51) 676.56.51",
+			"mail": "lima@multiplica.com"
+		},
+		{
+			"name": "Madrid",
+			"address": "Calle de Serrano, 93 28006 Madrid, España.",
+			"phone": "(+34) 91.080.48.74",
+			"mail": "madrid@multiplica.com"
+		},
+		{
+			"name": "Miami",
+			"address": "150 E Palmetto Park Rd #800, Boca Ratón, Florida",
+			"phone": "(+1) 877.698.9977",
+			"mail": "info@multiplica.us"
+		},
+		{
+			"name": "Medellín",
+			"address": "Calle 30 Sur #43a – 51 Piso 3 Envigado (Antioquia)",
+			"phone": "(+57) 4 3660434",
+			"mail": "medellin@multiplica.com"
+		},
+		{
+			"name": "San Francisco",
+			"address": "180 Sansome street San Francisco 94104 (California)",
+			"phone": "",
+			"mail": "sanfrancisco@multiplica.us"
+		},
+		{
+			"name": "Santo Domingo",
+			"address": "Jacinto Mañón #7, Ensanche Paraíso, Santo Domingo, República Dominicana",
+			"phone": "+1 (829) 946-2100",
+			"mail": "isaac@multiplica.com"
+		},
+		{
+			"name": "Santiago de Chile",
+			"address": "Holanda 100 Of. 503 Providencia, Santiago de Chile",
+			"phone": "(+56) 02.2.8198640",
+			"mail": "santiago@multiplica.com"
+		}
+
+	]
+}
