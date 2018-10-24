@@ -2,6 +2,13 @@
     .row {
         width: 100vw;
     }
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 0;
+        max-width: 100%;
+    }
 }
 
 header {
@@ -14,8 +21,6 @@ header {
 }
 
 footer {
-    position: absolute;
-    bottom: 0%;
     #sinap {
         text-align: justify;
     }
@@ -40,9 +45,6 @@ footer {
     }
 }
 
-.card {
-    position: absolute;
-    margin-top: -3%;
-    z-index: 2;
-    background-color: white;
+#cards {
+    margin-top: -2%;
 }
