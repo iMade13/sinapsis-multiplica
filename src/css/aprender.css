@@ -12,104 +12,6 @@ header .fas {
     font-size: 100%;
 }
 
-.header-cursos {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 92.9%;
-    background: #FFFFFF;
-}
-
-.img-aprender {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 7.1%;
-    bottom: 82.26%;
-}
-
-.body-cursos {
-    position: absolute;
-    left: 3.12%;
-    right: 3.12%;
-    top: 16.26%;
-    bottom: 13.66%;
-    background: #FFFFFF;
-    border: 1px solid #4A4A4A;
-}
-
-.btn-cursos .dropdown {
-    height: 17px;
-    left: 10.37%;
-    right: 10.37%;
-    top: calc(50% - 17px/2 + 1px);
-    font-family: Abel;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 13px;
-    text-align: center;
-    color: #FF5000;
-}
-
-#cursos-all {
-    position: absolute;
-    left: 8.01%;
-    right: 80.27%;
-    top: 19.22%;
-    bottom: 78.71%;
-}
-
-#UR {
-    position: absolute;
-    left: 20.7%;
-    right: 75.29%;
-    top: 19.22%;
-    bottom: 78.71%;
-}
-
-#UX {
-    position: absolute;
-    left: 25.68%;
-    right: 70.31%;
-    top: 19.22%;
-    bottom: 78.71%;
-}
-
-#UI {
-    position: absolute;
-    left: 30.66%;
-    right: 65.33%;
-    top: 19.22%;
-    bottom: 78.71%;
-}
-
-#front {
-    position: absolute;
-    left: 35.64%;
-    right: 58.98%;
-    top: 19.22%;
-    bottom: 78.71%;
-}
-
-#desarrollo {
-    position: absolute;
-    left: 41.99%;
-    right: 49.9%;
-    top: 19.22%;
-    bottom: 78.71%;
-}
-
-
-/* .dropdown {
-    position: absolute;
-    left: 72.66%;
-    right: 7.91%;
-    top: 19.22%;
-    bottom: 78.71%;
-} */
-
 footer {
     position: absolute;
     bottom: 0%;
@@ -122,4 +24,57 @@ footer #sinap {
 footer i {
     font-size: 200%;
     margin-left: 5%;
+}
+
+#grad {
+    background-image: linear-gradient(to right, #FF5000, #FFCD00);
+    width: 100vw;
+    height: 150px;
+}
+
+#grad #pgrad {
+    color: white;
+    margin-top: 3%;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#cursos-all {
+    color: #ffffff;
+    background-color: #FF5000;
+    border-radius: 4px;
+    border: 1px solid #FF5000;
+    border-bottom-width: thin;
+}
+
+#cursos-all:hover {
+    background-color: #cf400d;
+    border: 1px solid #cf400d;
+}
+
+.small-btn {
+    border: 1px solid #7e7e7e;
+    color: #FF5000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border-bottom-width: thin;
+}
+
+.small-btn:hover {
+    border: 1px solid #FF5000;
+}
+
+.dropdown-toggle {
+    color: #ffffff;
+    background-color: #FF5000;
+    border-radius: 4px;
+    border: 1px solid #FF5000;
+}
+
+.dropdown-toggle:hover {
+    background-color: #cf400d;
+    border: 1px solid #cf400d;
 }
