@@ -3,7 +3,8 @@
 
 header {
   margin-top: 3%; }
-  header .fa, header .fas {
+  header .fa,
+  header .fas {
     font-weight: 800;
     font-size: 100%; }
 
