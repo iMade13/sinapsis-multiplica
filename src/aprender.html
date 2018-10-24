@@ -5,19 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Sinapsis</title>
 </head>
 
 <body>
-    <section>
+    <section class="header-cursos">
         <h1>Sinapsis</h1>
         <i class="fas fa-user">UserName</i>
     </section>
     <section>
         <div class="img-aprender">
             <img>
+        </div>
+    </section>
+
+    <section class="body-cursos">
+        <div class="btn-cursos">
+            <button id="cursos-all">Todos los cursos</button>
+            <button id="UR">UR</button>
+            <button id="UX">UX</button>
+            <button id="UI">UI</button>
+            <button id="front">Front</button>
+            <button id="desarrollo">Desarrollo</button>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Solo cursos de Chile
+                </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+
+        <div id="dscrp-cursos">
         </div>
     </section>
 
