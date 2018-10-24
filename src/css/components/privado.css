@@ -1,10 +1,29 @@
-header {
-  margin-top: 3%; }
-  header .fa,
-  header .fas {
-    font-weight: 800;
-    font-size: 100%; }
+<<<<<<< HEAD
+=======
+* .row {
+    width: 100vw;
+}
 
+* .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+>>>>>>> vista
+header {
+    margin-top: 3%;
+}
+
+header .fa,
+header .fas {
+    font-weight: 800;
+    font-size: 100%;
+}
+
+<<<<<<< HEAD
 footer {
   margin-top: 5%; }
   footer #sinap {
@@ -16,21 +35,35 @@ footer {
     text-align: right;
     margin-bottom: auto;
     margin-top: auto; }
+=======
+footer #sinap {
+    text-align: justify;
+}
+
+footer i {
+    font-size: 200%;
+    margin-left: 5%;
+}
+>>>>>>> vista
 
 #grad {
-  background-image: linear-gradient(to right, #FF5000, #FFCD00);
-  width: 100vw;
-  height: 150px; }
-  #grad #pgrad {
+    background-image: linear-gradient(to right, #FF5000, #FFCD00);
+    width: 100vw;
+    height: 150px;
+}
+
+#grad #pgrad {
     color: white;
     margin-top: 3%;
     font-size: 150%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: auto; }
+    margin-bottom: auto;
+}
 
 #cards {
+<<<<<<< HEAD
   margin-top: -2%; }
 
 #quest {
@@ -38,3 +71,7 @@ footer {
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%; }
+=======
+    margin-top: -2%;
+}
+>>>>>>> vista
