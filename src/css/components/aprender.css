@@ -1,6 +1,19 @@
 * .row {
     width: 100vw;
+<<<<<<< HEAD
 <<<<<<< HEAD:src/css/components/aprender.css
+=======
+}
+
+header {
+    margin-top: 3%;
+}
+
+header .fa,
+header .fas {
+    font-weight: 800;
+    font-size: 100%;
+>>>>>>> vista
 }
 
 header {
@@ -25,12 +38,15 @@ header .fas {
     font-size: 100%;
 }
 
+<<<<<<< HEAD
 footer {
     position: absolute;
     bottom: 0%;
 }
 
 <<<<<<< HEAD:src/css/components/aprender.css
+=======
+>>>>>>> vista
 .btn-cursos .dropdown {
     height: 17px;
     left: 10.37%;
@@ -43,6 +59,7 @@ footer {
     font-size: 13px;
     text-align: center;
     color: #FF5000;
+<<<<<<< HEAD
 =======
 footer #sinap {
     text-align: justify;
@@ -68,6 +85,8 @@ footer i {
     margin-top: auto;
     margin-bottom: auto;
 >>>>>>> origin:src/css/aprender.css
+=======
+>>>>>>> vista
 }
 
 #cursos-all {
@@ -116,7 +135,35 @@ footer i {
     bottom: 78.71%;
 }
 
+<<<<<<< HEAD
 
+=======
+#UI {
+    position: absolute;
+    left: 30.66%;
+    right: 65.33%;
+    top: 19.22%;
+    bottom: 78.71%;
+}
+
+#front {
+    position: absolute;
+    left: 35.64%;
+    right: 58.98%;
+    top: 19.22%;
+    bottom: 78.71%;
+}
+
+#desarrollo {
+    position: absolute;
+    left: 41.99%;
+    right: 49.9%;
+    top: 19.22%;
+    bottom: 78.71%;
+}
+
+
+>>>>>>> vista
 /* .dropdown {
     position: absolute;
     left: 72.66%;
@@ -137,6 +184,7 @@ footer #sinap {
 footer i {
     font-size: 200%;
     margin-left: 5%;
+<<<<<<< HEAD
 =======
 .small-btn:hover {
     border: 1px solid #FF5000;
@@ -153,4 +201,6 @@ footer i {
     background-color: #cf400d;
     border: 1px solid #cf400d;
 >>>>>>> origin:src/css/aprender.css
+=======
+>>>>>>> vista
 }
