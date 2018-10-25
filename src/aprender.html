@@ -22,29 +22,28 @@
         </div>
     </section>
 
-    <section class="body-cursos">
-        <div class="btn-cursos">
-            <button id="cursos-all">Todos los cursos</button>
-            <button id="UR">UR</button>
-            <button id="UX">UX</button>
-            <button id="UI">UI</button>
-            <button id="front">Front</button>
-            <button id="desarrollo">Desarrollo</button>
-        </div>
-
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Solo cursos de Chile
-                </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Elige la sede
+            </button>
+        <div class="dropdown-menu" id="dropdownSede" aria-labelledby="dropdownMenu2">
+            <div id="enabled">
+                <button class="dropdown-item" type="button"></button>
+            </div>
+            <div class="dropdown-divider" id="divider">
+                <a class="dropdown-item disabled" href="#"></a>
             </div>
         </div>
+    </div>
 
-        <div id="dscrp-cursos">
+    <div id="dscrp-cursos">
+        <div id="fotoUser">
+            <div id=" iconoDetalle"></div>
+            <div id="textoDescr"></div>
         </div>
+        <div id="arrow"></div>
+
+    </div>
     </section>
 
 
@@ -62,6 +61,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/ensenar.js"></script>
 
 </body>
 
