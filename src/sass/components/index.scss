@@ -17,12 +17,7 @@
 }
 
 .pantallazo {
-    margin-left: 4em;
     margin-bottom: 4em;
-}
-
-.textoPantallazo {
-    margin-left: -8em;
 }
 
 .startBtn {
@@ -30,25 +25,22 @@
     width: 15em;
     background-color: #3B3D41;
     color: white;
+    margin-top: 2em;
 }
 
 .subtituloColaborar {
     font-weight: 600;
-    padding-top: 1em;
     padding-bottom: 1em;
 }
 
 .beneficiosBtn {
     height: 50px;
     width: 207px;
-    margin-top: 2em;
+    margin-bottom: 4em;
     border-radius: 3px;
     border-color: #C2C2C2;
     background-color: #F6F6F6;
-}
-
-.beneficiosBtn:active {
-    border: 3px solid #C2C2C2;
+    justify-content: center;
 }
 
 .queEs {
