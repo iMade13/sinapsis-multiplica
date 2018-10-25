@@ -30,10 +30,10 @@
 }
 #accordion{
   .card-header{
-    background-color: $negro;
+    background-color: $naranjaOscuro;
   }
   .active{
-    background-color: $naranjaOscuro;
+    background-color: $negro;
     color: $blanco;
   }
   .btn-link{
