@@ -173,6 +173,7 @@ getData().then(response => {
 
 // autocomplete(document.getElementById("inputLugar"), city)
 
+
 /* ====  FORM   ===== */
 
 // var config = {
