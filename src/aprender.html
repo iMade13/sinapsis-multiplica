@@ -5,18 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/mxlogo.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-
-    <link rel="stylesheet" href="./css/components/aprender.css">
-
-    <link rel="stylesheet" href="./css/components/aprender.css">
-
+    <link rel="stylesheet" href="css/main.css">
     <title>Sinapsis</title>
 </head>
 
 <body>
+
     <section class="container-fluid">
         <header class="row">
             <h3 class="col-10">Sinapsis</h3>
@@ -50,45 +47,72 @@
                             <a class="" class="dropdown-item" href="#">Seleccionar sede</a>
                         </div>
                     </div>
-                </div>
 
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <section class="navPriv">
+                        <nav class="navbar navbar">
+                            <a class="navbar-brand" href="#">
+                                <img src="../assets/img/multiplicaLogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
+                            </a>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" class="profile" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"></i>
+            UserName
+          </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="./privado.html">Home</a>
+                                    <a class="dropdown-item" id="signInBtn" onclick="logoutWithFireBase()">Log Out</a>
+
+                                </div>
+                            </div>
+                        </nav>
+                    </section>
+                    <section class="container-fluid" id="grad">
+                        <p class="pgrad">Quiero aprender</p>
+                    </section>
+                    <section>
+                        <div class="img-aprender">
+                            <img>
+                        </div>
+                    </section>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Elige la sede
             </button>
-                    <div class="dropdown-menu" id="dropdownSede" aria-labelledby="dropdownMenu2">
-                        <div id="enabled">
-                            <button class="dropdown-item" type="button"></button>
-                        </div>
-                        <div class="dropdown-divider" id="divider">
-                            <a class="dropdown-item disabled" href="#"></a>
+                        <div class="dropdown-menu" id="dropdownSede" aria-labelledby="dropdownMenu2">
+                            <div id="enabled">
+                                <button class="dropdown-item" type="button"></button>
+                            </div>
+                            <div class="dropdown-divider" id="divider">
+                                <a class="dropdown-item disabled" href="#"></a>
+                            </div>
                         </div>
                     </div>
+                    <section class="container">
+                        <div class="row">
+                            <div class="col-12" id="dscrp-cursos">
+                                <div id="fotoUser">
+                                    <img>
+                                    <div class="row" id=" iconoDetalle">
+                                        <i class="far fa-calendar-alt class col-3">04/11/2018</i>
+                                        <i class="class col-3"> UI</i>
+                                        <i class="fas fa-user-alt class col-3"> Yerko Pezzopane</i>
+                                        <i class="fas fa-home class col-3"> Chile/Presencial</i>
+                                    </div>
+
+                                    <div id="textoDescr">
+                                        <p class="">3 pasos para pasar de un Sketch a un PSD</p>
+                                        <span class="">Taller para diseñadores y desarrolladores front-end.</span>
+                                    </div>
+                                </div>
+                                <div id="arrow">
+                                    <i> </i>
+                                </div>
+                            </div>
+
+                        </div>
                 </div>
-                <section class="container">
-                    <div class="row">
-                        <div class="col-12" id="dscrp-cursos">
-                            <div id="fotoUser">
-                                <img>
-                                <div class="row" id=" iconoDetalle">
-                                    <i class="far fa-calendar-alt class col-3">04/11/2018</i>
-                                    <i class="class col-3"> UI</i>
-                                    <i class="fas fa-user-alt class col-3"> Yerko Pezzopane</i>
-                                    <i class="fas fa-home class col-3"> Chile/Presencial</i>
-                                </div>
-
-                                <div id="textoDescr">
-                                    <p class="">3 pasos para pasar de un Sketch a un PSD</p>
-                                    <span class="">Taller para diseñadores y desarrolladores front-end.</span>
-                                </div>
-                            </div>
-                            <div id="arrow">
-                                <i> </i>
-                            </div>
-                        </div>
-
-                    </div>
-                    </div>
                 </section>
 
                 <section class="container">
@@ -226,6 +250,10 @@
 
 
 
+
+                    <script src="./js/searchAutocomplete.js">
+                    </script>
+
         </section>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -234,7 +262,6 @@
         <script src="./js/ensenar.js"></script>
         <script src="./js/aprender.js">
         </script>
-
 
 </body>
 
