@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./css/components/aprender.css">
+
+    <link rel="stylesheet" href="./css/components/aprender.css">
 
     <title>Sinapsis</title>
 </head>
@@ -21,8 +24,8 @@
         </header>
 
 
-        <section class="container-fluid" id="grad">
-            <p class="pgrad">¿Qué deseas hacer?</p>
+        <section class="row" id="headerGrad">
+            <p id="pGrad">Quiero aprender</p>
         </section>
 
         <section class="container body-cursos">
@@ -53,126 +56,17 @@
 
 
             </nav>
-            <section class="container">
-                <div class="row">
-                    <div class="col-12" id="dscrp-cursos">
-                        <div id="fotoUser">
-                            <img>
-                            <div class="row" id=" iconoDetalle">
-                                <i class="far fa-calendar-alt class col-3">04/11/2018</i>
-                                <i class="fas fa-chalkboard-teacher class col-3"> UI</i>
-                                <i class="fas fa-user-alt class col-3"> Yerko Pezzopane</i>
-                                <i class="fas fa-home class col-3"> Chile/Presencial</i>
-                            </div>
-
-                            <div id="textoDescr">
-                                <p class="">3 pasos para pasar de un Sketch a un PSD</p>
-                                <span class="">Taller para diseñadores y desarrolladores front-end.</span>
-                            </div>
-                        </div>
-                        <div id="arrow">
-                            <i> </i>
-                        </div>
-                    </div>
+            <!-- <div class="row btn-cursos">
+                <div class="col-8">
+                    <button type="button" id="cursos-all">Todos los cursos</button>
+                    <button type="button" class="small-btn" id="UR">UR</button>
+                    <button type="button" class="small-btn" id="UX">UX</button>
+                    <button type="button" class="small-btn" id="UI">UI</button>
+                    <button type="button" class="small-btn" id="front">Front</button>
+                    <button type="button" class="small-btn" id="desarrollo">Desarrollo</button>
                 </div>
-            </section>
-            <section class="container">
-                <div class="row">
-                    <div class="col-12" id="dscrp-cursos">
-                        <div id="fotoUser">
-                            <img>
-                            <div class="row" id="iconoDetalle">
-                                <i class="far fa-calendar-alt class col-3">27/10/2018</i>
-                                <i class="fas fa-chalkboard-teacher class col-3"> UI</i>
-                                <i class="fas fa-user-alt class col-3"> Paulina González</i>
-                                <i class="fas fa-home class col-3"> Bogotá/Presencial</i>
-                            </div>
-
-                            <div id="textoDescr">
-                                <p class="">Sketch básico</p>
-                                <span class="">Curso de Sketch básico </span>
-                            </div>
-
-                        </div>
-                        <div id="arrow">
-                            <i> </i>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <section class="container">
-                <div class="row">
-                    <div class="col-12" id="dscrp-cursos">
-                        <div id="fotoUser">
-                            <img>
-                            <div class="row" id=" iconoDetalle">
-                                <i class="far fa-calendar-alt class col-3">5/11/2018</i>
-                                <i class="fas fa-chalkboard-teacher class col-3"> UX</i>
-                                <i class="fas fa-user-alt class col-3"> Viviana Guerra </i>
-                                <i class="fas fa-globe-americas class col-3"> Chile/Online</i>
-                            </div>
-                            <div id="textoDescr">
-                                <p class="">¿Cómo entrevistar a un usuario?</p>
-                                <span class=""> Curso de entrevistas de usuario para principiantes. </span>
-                            </div>
-                        </div>
-                        <div id="arrow">
-                            <i> </i>
-                        </div>
-                    </div>
-
-                </div>
-                </div>
-            </section>
-            <section class="container">
-                <div class="row">
-                    <div class="col-12" id="dscrp-cursos">
-                        <div id="fotoUser">
-                            <img>
-                            <div class="row" id="iconoDetalle">
-                                <i class="far fa-calendar-alt class col-3">29/10/2018</i>
-                                <i class="fas fa-chalkboard-teacher class col-3"> Front</i>
-                                <i class="fas fa-user-alt class col-3"> Natalia Poblete</i>
-                                <i class="fas fa-globe-americas class col-3"> Madrid/Online</i>
-                            </div>
-                            <div id="textoDescr">
-                                <p class="">React avanzado</p>
-                                <span class="">Curso de React avanzado para desarrolladores front-end.</span>
-                            </div>
-                        </div>
-                        <div id="arrow">
-                            <i> </i>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </section>
-            <section class="container">
-                <div class="row">
-                    <div class="col-12" id="dscrp-cursos">
-                        <div id="fotoUser">
-                            <img>
-                            <div class="row" id=" iconoDetalle">
-                                <i class="far fa-calendar-alt class col-3">05/12/2018</i>
-                                <i class="fas fa-chalkboard-teacher class col-3">Agile </i>
-                                <i class="fas fa-user-alt class col-3"> Evelyn Méndez</i>
-                                <i class="fas fa-home class col-3"> Chile/Presencial</i>
-                            </div>
-
-                            <div id="textoDescr">
-                                <p class="">Introducción a metodologías ágiles</p>
-                                <span class="">Curso de introducción a metodologías ágiles para principiantes.</span>
-                            </div>
-                        </div>
-                        <div id="arrow">
-                            <i> </i>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </section>
+                 
+            </div>  -->
         </section>
 
         <section class="container">
