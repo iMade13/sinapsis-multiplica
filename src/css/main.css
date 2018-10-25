@@ -152,8 +152,14 @@ header .fas {
 }
 
 .subtituloColaborar {
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 0;
+}
+
+.textoPantallazo {
+    margin-bottom: 1em;
 }
 
 .beneficiosBtn {
@@ -164,6 +170,7 @@ header .fas {
     border-color: #C2C2C2;
     background-color: #F6F6F6;
     justify-content: center;
+    margin-top: 1em;
 }
 
 .queEs {
@@ -182,11 +189,14 @@ header .fas {
 
 .footer-box {
     display: flex;
-    justify-content: space-around;
     margin-bottom: 4em;
 }
 
 .cajaTituloCursos {
+    text-align: center;
+}
+
+.tituloCursos {
     text-align: center;
 }
 
@@ -262,9 +272,27 @@ div .box-lugar {
     margin-bottom: 20px;
 }
 
-button .btn-evento {
+.btn-evento {
     width: 140px;
     height: 50px;
+    background-color: #3b3d41;
+    color: #ffffff;
+    text-align: center;
+}
+
+div .box-evento {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.custon-radio {
+    margin-top: 50px;
+}
+
+div .tarjetaExito {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    text-align: center;
 }
 
 .footerPages {
