@@ -1,7 +1,12 @@
+@charset "UTF-8";
 .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100%; }
+
+
+.navPriv a {
+  color: #000000; }
 
 * {
   font-family: 'Open Sans', sans-serif; }
@@ -13,29 +18,30 @@ header {
     font-weight: 800;
     font-size: 100%; }
 
-nav a {
+
+.navPriv:hover a {
   color: #000000; }
 
-footer {
+.footerPages {
   margin-top: 5%;
   background-color: #000000;
   color: #ffffff;
   padding-bottom: 60px; }
-  footer #h4 {
+  .footerPages .h4Footer {
     color: #ff5000;
     padding-top: 30px; }
-  footer #copy {
+  .footerPages .copyFooter {
     color: #7e7e7e;
     text-transform: uppercase; }
-  footer #sinap {
+  .footerPages .sinap {
     text-align: justify; }
-  footer i {
+  .footerPages .iconFooterPages {
     font-size: 200%;
     margin-left: 5%;
     color: #ff5000; }
-  footer i:hover {
+  .footerPages .iconFooterPages:hover {
     color: #ffffff; }
-  footer #icon {
+  .footerPages #iconsFoot {
     text-align: right;
     margin-bottom: auto;
     margin-top: auto; }
@@ -44,13 +50,13 @@ footer {
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
   height: 150px;
   margin: 0%; }
-  #grad #pgrad {
+  #grad .pgrad {
     color: white;
     font-size: 150%;
     text-align: center;
     padding-top: 50px; }
 
-h3 {
+#quest {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -58,38 +64,49 @@ h3 {
 
 #cards {
   margin-top: -2%; }
-  #cards .card {
+  #cards #enseñar-aprender {
     width: 300px; }
-  #cards .card-body {
+  #cards #bodyCardPriv {
     height: 296px; }
-  #cards .card-footer {
+  #cards #footerCardPriv {
     height: 150px; }
-  #cards #arrow {
+  #cards .arrow {
     display: none; }
-  #cards h1 {
+  #cards #titleCard {
     text-align: center; }
-  #cards h6 {
+  #cards #textCard {
     text-align: justify; }
-  #cards .card:hover {
+  #cards #enseñar-aprender:hover {
     background-color: #000000 !important;
     color: #ffffff;
     width: 300px;
     height: 447px; }
-    #cards .card:hover .card-footer {
+    #cards #enseñar-aprender:hover #footerCardPriv {
       display: none; }
-    #cards .card:hover #arrow {
+    #cards #enseñar-aprender:hover .arrow {
       display: block;
       font-size: 1000%;
       text-align: center; }
+  #cards a.arrow {
+    color: #ffffff; }
 
-#acordeon .btn-link {
+#accordion #collapseButtonAccordion {
   color: #000000; }
 
-#acordeon .btn-link:hover {
+#accordion #collapseButtonAccordion:hover {
   color: #000000; }
 
-#acordeon #quest {
+#accordion #quest {
   text-align: center; }
+
+#accordion .fa, #accordion .fas {
+  font-weight: 900;
+  float: right; }
+
+.btn btn-link i .fas fa-angle-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px; }
 
 .center-align {
   text-align: center;
