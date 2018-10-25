@@ -4,13 +4,28 @@ header {
     font-weight: 800;
     font-size: 100%; }
 
+nav a {
+  color: #000000; }
+
 footer {
-  margin-top: 5%; }
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  footer #h4 {
+    color: #ff5000;
+    padding-top: 30px; }
+  footer #copy {
+    color: #7e7e7e;
+    text-transform: uppercase; }
   footer #sinap {
     text-align: justify; }
   footer i {
     font-size: 200%;
-    margin-left: 5%; }
+    margin-left: 5%;
+    color: #ff5000; }
+  footer i:hover {
+    color: #ffffff; }
   footer #icon {
     text-align: right;
     margin-bottom: auto;
@@ -18,18 +33,15 @@ footer {
 
 #grad {
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
-  width: 100vw;
-  height: 150px; }
+  height: 150px;
+  margin: 0%; }
   #grad #pgrad {
     color: white;
-    margin-top: 3%;
     font-size: 150%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; }
+    text-align: center;
+    padding-top: 50px; }
 
-#quest {
+h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -37,3 +49,35 @@ footer {
 
 #cards {
   margin-top: -2%; }
+  #cards .card {
+    width: 300px; }
+  #cards .card-body {
+    height: 296px; }
+  #cards .card-footer {
+    height: 150px; }
+  #cards #arrow {
+    display: none; }
+  #cards h1 {
+    text-align: center; }
+  #cards h6 {
+    text-align: justify; }
+  #cards .card:hover {
+    background-color: #000000 !important;
+    color: #ffffff;
+    width: 300px;
+    height: 447px; }
+    #cards .card:hover .card-footer {
+      display: none; }
+    #cards .card:hover #arrow {
+      display: block;
+      font-size: 1000%;
+      text-align: center; }
+
+#acordeon .btn-link {
+  color: #000000; }
+
+#acordeon .btn-link:hover {
+  color: #000000; }
+
+#acordeon #quest {
+  text-align: center; }
