@@ -30,7 +30,7 @@ function redirectFromLogin() {
 function logoutWithFireBase() {
     firebase.auth().signOut()
         .then(() => {
-            location.href = "index.html";
+            location.href = "../../index.html";
             console.log('usuario finalizo su sesion')
         })
         .catch();
