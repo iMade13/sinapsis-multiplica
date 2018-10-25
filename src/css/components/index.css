@@ -47,8 +47,13 @@
   margin-top: 2em; }
 
 .subtituloColaborar {
-  font-weight: 600;
-  padding-bottom: 1em; }
+  font-weight: 700;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: 0; }
+
+.textoPantallazo {
+  margin-bottom: 1em; }
 
 .beneficiosBtn {
   height: 50px;
@@ -57,7 +62,8 @@
   border-radius: 3px;
   border-color: #C2C2C2;
   background-color: #F6F6F6;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 1em; }
 
 .queEs {
   padding-top: 2em;
@@ -72,8 +78,10 @@
 
 .footer-box {
   display: flex;
-  justify-content: space-around;
   margin-bottom: 4em; }
 
 .cajaTituloCursos {
+  text-align: center; }
+
+.tituloCursos {
   text-align: center; }
