@@ -1,61 +1,3 @@
-// const topics = [
-//     "A/B Testing",
-//     "accesibility",
-//     "agile",
-//     "angular",
-//     "artificial intelligence",
-//     "augmented reality",
-//     "axure",
-//     "cardsorting",
-//     "content manager",
-//     "css",
-//     "figma",
-//     "gestal priciple",
-//     "google analytics",
-//     "HCI",
-//     "html",
-//     "illustrator",
-//     "information architecture",
-//     "interaction design",
-//     "invision",
-//     "jquery",
-//     "json",
-//     "machine learning",
-//     "marvel",
-//     "photoshop",
-//     "php",
-//     "prototype",
-//     "rails",
-//     "responsive design",
-//     "ruby",
-//     "scrum",
-//     "sketch",
-//     "sublime text",
-//     "trello",
-//     "ui",
-//     "user research",
-//     "ux",
-//     "vue",
-//     "vui",
-//     "wordpress"
-// ]
-
-// const city = [
-//     "Barcelina",
-//     "Berlín",
-//     "Bogotá",
-//     "Buenos Aires",
-//     "Ciudad de México",
-//     "Guayaquil",
-//     "Lima",
-//     "Madrid",
-//     "Miami",
-//     "Medellin",
-//     "Santo Domingo",
-//     "San Francisco",
-//     "Santiago de Chile"
-// ]
-
 function autocomplete(inp, arr) {
     let currentFocus;
     /*execute a function when someone writes in the text field:*/
@@ -148,27 +90,30 @@ function autocomplete(inp, arr) {
     });
 }
 
-const url = 'api/topic.json';
+const topics = 'api/topic.json';
+const city = "api/city.json";
 
-function getData(){
-    return fetch(url,
-    {
-    method: "GET",
-    headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-    },
-    })
-    .then((response) => response.json())
-    .then((responseData) => {
-      console.warn(responseData);
-      return responseData.topics;
-    })
-    .catch(error => console.warn(error));    
+function getData(url) {
+    return fetch(url, {
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+        })
+        .then((response) => response.json())
+        .then((responseData) => {
+            console.warn(responseData);
+            return responseData;
+        })
+        .catch(error => console.warn(error));
 }
 
-getData().then(response => {
-    autocomplete(document.getElementById("inputTemas"), response)
+getData(topics).then(response => {
+    autocomplete(document.getElementById("inputTemas"), response.topics)
+});
+getData(city).then(response => {
+    autocomplete(document.getElementById("inputLugar"), response.city.name)
 });
 
 // autocomplete(document.getElementById("inputLugar"), city)
