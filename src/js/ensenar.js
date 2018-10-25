@@ -148,9 +148,10 @@ function autocomplete(inp, arr) {
     });
 }
 
-const url = 'api/topic.json';
+const topics = 'api/topic.json';
+const cities = 'api/city.json';
 
-function getData(){
+function getData(url){
     return fetch(url,
     {
     method: "GET",
@@ -162,13 +163,21 @@ function getData(){
     .then((response) => response.json())
     .then((responseData) => {
       console.warn(responseData);
-      return responseData.topics;
+      return responseData;
     })
     .catch(error => console.warn(error));    
 }
 
-getData().then(response => {
-    autocomplete(document.getElementById("inputTemas"), response)
+getData(topics).then(response => {
+    autocomplete(document.getElementById("inputTemas"), response.topics)
+});
+
+getData(cities).then(response => {
+    data = [];    
+    response.city.forEach(function(element) {
+        data.push(element.name);
+    });
+    autocomplete(document.getElementById("inputLugar"), data)
 });
 
 // autocomplete(document.getElementById("inputLugar"), city)
