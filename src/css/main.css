@@ -79,7 +79,7 @@ footer i {
   height: 50px;
   width: 207px;
   margin-top: 2em;
-  radius: 3px;
+  border-radius: 3px;
   border-color: #C2C2C2;
   background-color: #F6F6F6; }
 
