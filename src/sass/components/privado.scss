@@ -109,4 +109,14 @@
   #quest{
     text-align: center;
   }
+  .fa, .fas {
+    font-weight: 900;
+    float: right;
+}
+}
+
+.btn btn-link i .fas fa-angle-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
 }

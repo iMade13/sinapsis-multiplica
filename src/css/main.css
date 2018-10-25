@@ -86,3 +86,12 @@
 
 #accordion #quest {
   text-align: center; }
+
+#accordion .fa, #accordion .fas {
+  font-weight: 900;
+  float: right; }
+
+.btn btn-link i .fas fa-angle-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px; }
