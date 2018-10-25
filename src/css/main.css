@@ -4,20 +4,11 @@
   height: 10px;
   border-radius: 100%; }
 
-
-.navPriv a {
-  color: #000000; }
-
 * {
   font-family: 'Open Sans', sans-serif; }
 
-header {
-  margin-top: 3%; }
-  header .fa,
-  header .fas {
-    font-weight: 800;
-    font-size: 100%; }
-
+.navPriv a {
+  color: #000000; }
 
 .navPriv:hover a {
   color: #000000; }
@@ -46,12 +37,16 @@ header {
     margin-bottom: auto;
     margin-top: auto; }
 
+#dropdownMenuButton {
+  background-color: #ff5000;
+  color: #ffffff; }
+
 #grad {
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
   height: 150px;
   margin: 0%; }
   #grad .pgrad {
-    color: white;
+    color: #ffffff;
     font-size: 150%;
     text-align: center;
     padding-top: 50px; }
@@ -99,7 +94,8 @@ header {
 #accordion #quest {
   text-align: center; }
 
-#accordion .fa, #accordion .fas {
+#accordion .fa,
+#accordion .fas {
   font-weight: 900;
   float: right; }
 
@@ -107,6 +103,17 @@ header {
   right: 12px;
   left: auto;
   font-size: 16px; }
+
+@media (max-width: 414px) {
+  #accordion #collapseButtonAccordion {
+    font-size: 100%;
+    white-space: normal;
+    text-align: left; }
+  #cards,
+  .col-5 {
+    max-width: 55%;
+    padding-bottom: 15%;
+    padding-left: 10%; } }
 
 .center-align {
   text-align: center;
@@ -168,10 +175,6 @@ form .autocomplete {
   /*the container must be positioned relative:*/
   position: relative; }
 
-input[type=text] {
-  background-color: #f1f1f1;
-  width: 100%; }
-
 .autocomplete-items {
   position: absolute;
   border: 1px solid #d4d4d4;
@@ -186,11 +189,17 @@ input[type=text] {
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
-  background-color: #fff;
   border-bottom: 1px solid #d4d4d4; }
 
 label {
   margin-top: 20px; }
 
 div .input-cursos {
+  height: 50px; }
+
+div .box-lugar {
+  margin-bottom: 20px; }
+
+button .btn-evento {
+  width: 140px;
   height: 50px; }
