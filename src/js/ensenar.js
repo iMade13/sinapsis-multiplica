@@ -148,30 +148,30 @@ function autocomplete(inp, arr) {
     });
 }
 
-// const url = 'api/topic.json';
+const url = 'api/topic.json';
+let topics = '';
 
-// fetch(url)
-//     .then(
-//         function(response) {
-//             if (response.status !== 200) {
-//                 console.warn('Looks like there was a problem. Status Code: ' +
-//                     response.status);
-//                 return;
-//             }
-//             response.json().then(function(data) {
-//                 console.log(data)
-//                 for (let i = 0; i < data.length; i++) {
-//              
-//                 }
-//             });
-//         }
-//     )
-//     .catch(function(err) {
-//         console.error('Fetch Error -', err);
-//     });
+fetch(url)
+    .then(
+        function(response) {
+            if (response.status !== 200) {
+                console.warn('Looks like there was a problem. Status Code: ' +
+                    response.status);
+                return;
+            }
+            response.json().then(function(data) {
+                console.log(data)
+                topics = data
+
+            });
+        }
+    )
+    .catch(function(err) {
+        console.error('Fetch Error -', err);
+    });
 
 autocomplete(document.getElementById("inputTemas"), topics)
-autocomplete(document.getElementById("inputLugar"), city)
+    // autocomplete(document.getElementById("inputLugar"), city)
 
 /* ====  FORM   ===== */
 
