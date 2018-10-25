@@ -94,8 +94,7 @@
 #accordion #quest {
   text-align: center; }
 
-#accordion .fa,
-#accordion .fas {
+#accordion .fa, #accordion .fas {
   font-weight: 900;
   float: right; }
 
@@ -109,7 +108,6 @@
     font-size: 100%;
     white-space: normal;
     text-align: left; }
-
   #cards, .col-5 {
     max-width: 55%;
     padding-bottom: 15%;
