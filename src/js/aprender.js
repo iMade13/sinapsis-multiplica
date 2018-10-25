@@ -1,37 +1,16 @@
-//DOM para dropdown, escoger ciudad
+//Dom para dropdown
 
-let dropdown = document.getElementById('city');
-dropdown.length = 0;
+$(document).ready(function() {
 
-let defaultOption = document.createElement('option');
-defaultOption.text = 'Elige una ciudad';
+    $.getJSON("../api/city.json", function(data) {
 
-//dropdown.add(defaultOption);
-dropdown.selectedIndex = 0;
+        var options = [];
 
+        $.each(data, function(id, city) {
+            options.push("<a value='" + city.name + "'>" + city.name + "</a>");
+        });
 
-fetch('../api/city.json')
-    .then(
-        function(response) {
-            if (response.status !== 200) {
-                console.warn('Al parecer hay un problema. Status Code: ' +
-                    response.status);
-                return;
-            }
-
-            // Examine the text in the response  
-            response.json().then(function(data) {
-                let option;
-
-                for (let i = 0; i < data.length; i++) {
-                    option = document.createElement('option');
-                    option.text = data[i].name;
-                    option.value = data[i].address;
-                    dropdown.add(option);
-                }
-            });
-        }
-    )
-    .catch(function(err) {
-        console.error('Fetch Error -', err);
+        $(".dropdown-item").html(options.join(""));
     });
+
+});
