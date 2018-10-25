@@ -47,13 +47,14 @@ footer {
     padding-top: 50px; }
 
 h3 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; }
 
 #cards {
   margin-top: -2%; }
+
   #cards .card {
     width: 300px; }
   #cards .card-body {
@@ -86,3 +87,4 @@ h3 {
 
 #acordeon #quest {
   text-align: center; }
+
