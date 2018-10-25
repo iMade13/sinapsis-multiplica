@@ -1,6 +1,7 @@
 @import 'var';
-
-
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 .navPriv{
   a{
     color: $negro;
@@ -18,11 +19,11 @@
   color:$blanco;
   padding-bottom: 60px;
   .h4Footer{
-    color: #ff5000;
+    color: $naranjaOscuro;
     padding-top: 30px;
   }
   .copyFooter{
-    color: #7e7e7e;
+    color: $grisMedio;
     text-transform: uppercase;
   }
   .sinap{
@@ -42,13 +43,16 @@
     margin-top: auto;
   }
 }
-
+#dropdownMenuButton{
+  background-color: $naranjaOscuro;
+  color: $blanco
+}
 #grad {
     background-image: linear-gradient(to right, #FF5000, #FFCD00);
     height: 150px;
     margin: 0%;
     .pgrad {
-        color: white;
+        color: $blanco;
         font-size: 150%;
         text-align: center;
         padding-top: 50px;

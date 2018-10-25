@@ -4,6 +4,9 @@
   height: 10px;
   border-radius: 100%; }
 
+* {
+  font-family: 'Open Sans', sans-serif; }
+
 .navPriv a {
   color: #000000; }
 
@@ -34,12 +37,16 @@
     margin-bottom: auto;
     margin-top: auto; }
 
+#dropdownMenuButton {
+  background-color: #ff5000;
+  color: #ffffff; }
+
 #grad {
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
   height: 150px;
   margin: 0%; }
   #grad .pgrad {
-    color: white;
+    color: #ffffff;
     font-size: 150%;
     text-align: center;
     padding-top: 50px; }
