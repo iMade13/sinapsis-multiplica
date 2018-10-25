@@ -1,44 +1,42 @@
 @import 'var';
 
-header{
-  margin-top: 3%;
-  .fa, .fas {
-    font-weight: 800;
-    font-size: 100%;
+
+.navPriv{
+  a{
+    color: $negro;
   }
 }
-
-nav{
+.navPriv:hover{
   a{
     color: $negro;
   }
 }
 
-footer{
+.footerPages{
   margin-top: 5%;
   background-color: $negro;
   color:$blanco;
   padding-bottom: 60px;
-  #h4{
+  .h4Footer{
     color: #ff5000;
     padding-top: 30px;
   }
-  #copy{
+  .copyFooter{
     color: #7e7e7e;
     text-transform: uppercase;
   }
-  #sinap{
+  .sinap{
     text-align: justify;
   }
-  i{
+  .iconFooterPages{
     font-size: 200%;
     margin-left: 5%;
     color: $naranjaOscuro;
   }
-  i:hover{
+  .iconFooterPages:hover{
     color: $blanco;
   }
-  #icon{
+  #iconsFoot{
     text-align: right;
     margin-bottom: auto;
     margin-top: auto;
@@ -49,14 +47,14 @@ footer{
     background-image: linear-gradient(to right, #FF5000, #FFCD00);
     height: 150px;
     margin: 0%;
-    #pgrad {
+    .pgrad {
         color: white;
         font-size: 150%;
         text-align: center;
         padding-top: 50px;
     }
 }
-h3{
+#quest{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -65,48 +63,49 @@ h3{
 
 #cards {
     margin-top: -2%;
-    .card{
+    #enseñar-aprender{
       width: 300px;
     }
-    .card-body{
+    #bodyCardPriv{
       height: 296px;
     }
-    .card-footer{
+    #footerCardPriv{
       height: 150px;
     }
-    #arrow{
+    .arrow{
       display:none;
     }
-    h1{
+    #titleCard{
       text-align: center;      
     }
-    h6{
+    #textCard{
       text-align: justify;
     }
-    .card:hover{
+    #enseñar-aprender:hover{
       background-color: $negro !important;
       color: $blanco;
       width: 300px;
       height: 447px;
-      .card-footer{
+      #footerCardPriv{
         display: none;
       }
-      #arrow{
+      .arrow{
         display: block;
         font-size: 1000%;
         text-align: center;
       }
     }
+    a.arrow{
+      color: $blanco;
+    }
 }
-#acordeon{
-  .btn-link{
+#accordion{
+  #collapseButtonAccordion{
     color: $negro;
   }
-  
-  .btn-link:hover{
+  #collapseButtonAccordion:hover{
     color: $negro;
   }
-  
   #quest{
     text-align: center;
   }
