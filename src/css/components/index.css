@@ -1,3 +1,27 @@
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
+
 .center-align {
   text-align: center;
   margin-bottom: 4em; }
@@ -23,8 +47,13 @@
   margin-top: 2em; }
 
 .subtituloColaborar {
-  font-weight: 600;
-  padding-bottom: 1em; }
+  font-weight: 700;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: 0; }
+
+.textoPantallazo {
+  margin-bottom: 1em; }
 
 .beneficiosBtn {
   height: 50px;
@@ -33,7 +62,8 @@
   border-radius: 3px;
   border-color: #C2C2C2;
   background-color: #F6F6F6;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 1em; }
 
 .queEs {
   padding-top: 2em;
@@ -48,8 +78,10 @@
 
 .footer-box {
   display: flex;
-  justify-content: space-around;
   margin-bottom: 4em; }
 
 .cajaTituloCursos {
+  text-align: center; }
+
+.tituloCursos {
   text-align: center; }

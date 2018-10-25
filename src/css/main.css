@@ -4,58 +4,11 @@
   height: 10px;
   border-radius: 100%; }
 
-* {
-  font-family: 'Open Sans', sans-serif; }
-
 .navPriv a {
   color: #000000; }
 
 .navPriv:hover a {
   color: #000000; }
-
-.footerPages {
-  margin-top: 5%;
-  background-color: #000000;
-  color: #ffffff;
-  padding-bottom: 60px; }
-  .footerPages .h4Footer {
-    color: #ff5000;
-    padding-top: 30px; }
-  .footerPages .copyFooter {
-    color: #7e7e7e;
-    text-transform: uppercase; }
-  .footerPages .sinap {
-    text-align: justify; }
-  .footerPages .iconFooterPages {
-    font-size: 200%;
-    margin-left: 5%;
-    color: #ff5000; }
-  .footerPages .iconFooterPages:hover {
-    color: #ffffff; }
-  .footerPages #iconsFoot {
-    text-align: right;
-    margin-bottom: auto;
-    margin-top: auto; }
-
-#dropdownMenuButton {
-  background-color: #ff5000;
-  color: #ffffff; }
-
-#grad {
-  background-image: linear-gradient(to right, #FF5000, #FFCD00);
-  height: 150px;
-  margin: 0%; }
-  #grad .pgrad {
-    color: #ffffff;
-    font-size: 150%;
-    text-align: center;
-    padding-top: 50px; }
-
-#quest {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
 
 #cards {
   margin-top: -2%; }
@@ -85,6 +38,29 @@
   #cards a.arrow {
     color: #ffffff; }
 
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+#dropdownMenuButton {
+  background-color: #ff5000;
+  color: #ffffff; }
+
+#grad {
+  background-image: linear-gradient(to right, #FF5000, #FFCD00);
+  height: 150px;
+  margin: 0%; }
+  #grad .pgrad {
+    color: #ffffff;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 50px; }
+
+.quest {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
 #accordion #collapseButtonAccordion {
   color: #000000; }
 
@@ -94,8 +70,7 @@
 #accordion #quest {
   text-align: center; }
 
-#accordion .fa,
-#accordion .fas {
+#accordion .fa, #accordion .fas {
   font-weight: 900;
   float: right; }
 
@@ -109,11 +84,34 @@
     font-size: 100%;
     white-space: normal;
     text-align: left; }
-
   #cards, .col-5 {
     max-width: 55%;
     padding-bottom: 15%;
     padding-left: 10%; } }
+
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
 
 .center-align {
   text-align: center;
@@ -140,8 +138,13 @@
   margin-top: 2em; }
 
 .subtituloColaborar {
-  font-weight: 600;
-  padding-bottom: 1em; }
+  font-weight: 700;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: 0; }
+
+.textoPantallazo {
+  margin-bottom: 1em; }
 
 .beneficiosBtn {
   height: 50px;
@@ -150,7 +153,8 @@
   border-radius: 3px;
   border-color: #C2C2C2;
   background-color: #F6F6F6;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 1em; }
 
 .queEs {
   padding-top: 2em;
@@ -165,18 +169,38 @@
 
 .footer-box {
   display: flex;
-  justify-content: space-around;
   margin-bottom: 4em; }
 
 .cajaTituloCursos {
   text-align: center; }
 
-<<<<<<< HEAD
-div .tarjetaExito {
-  margin-top: 4em;
-  margin-bottom: 4em;
+.tituloCursos {
   text-align: center; }
-=======
+
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
+
 form .autocomplete {
   /*the container must be positioned relative:*/
   position: relative; }
@@ -202,9 +226,6 @@ label {
 
 div .input-cursos {
   height: 50px; }
-<<<<<<< HEAD
->>>>>>> 40efda70788b98b349eb1a09584fe929c4a5e5a8
-=======
 
 div .box-lugar {
   margin-bottom: 20px; }
@@ -212,4 +233,60 @@ div .box-lugar {
 button .btn-evento {
   width: 140px;
   height: 50px; }
->>>>>>> 153b1b57ceea81223ebc4919d14195a651a4f017
+
+div .tarjetaExito {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-align: center; }
+
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
+
+#cards {
+  margin-top: -2%; }
+  #cards #enseñar-aprender {
+    width: 300px; }
+  #cards #bodyCardPriv {
+    height: 296px; }
+  #cards #footerCardPriv {
+    height: 150px; }
+  #cards .arrow {
+    display: none; }
+  #cards #titleCard {
+    text-align: center; }
+  #cards #textCard {
+    text-align: justify; }
+  #cards #enseñar-aprender:hover {
+    background-color: #000000 !important;
+    color: #ffffff;
+    width: 300px;
+    height: 447px; }
+    #cards #enseñar-aprender:hover #footerCardPriv {
+      display: none; }
+    #cards #enseñar-aprender:hover .arrow {
+      display: block;
+      font-size: 1000%;
+      text-align: center; }
+  #cards a.arrow {
+    color: #ffffff; }

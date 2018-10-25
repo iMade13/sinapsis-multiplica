@@ -1,0 +1,40 @@
+@import 'var';
+
+#cards {
+  margin-top: -2%;
+    #enseñar-aprender{
+      width: 300px;
+    }
+    #bodyCardPriv{
+      height: 296px;
+    }
+    #footerCardPriv{
+      height: 150px;
+    }
+    .arrow{
+      display:none;
+    }
+    #titleCard{
+      text-align: center;      
+    }
+    #textCard{
+      text-align: justify;
+    }
+    #enseñar-aprender:hover{
+      background-color: $negro !important;
+      color: $blanco;
+      width: 300px;
+      height: 447px;
+      #footerCardPriv{
+        display: none;
+      }
+      .arrow{
+        display: block;
+        font-size: 1000%;
+        text-align: center;
+      }
+    }
+    a.arrow{
+      color: $blanco;
+    }
+}
