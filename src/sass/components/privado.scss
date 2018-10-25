@@ -9,10 +9,43 @@
     }
 }
 
+.quest{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+#accordion{
+  .card-header{
+    background-color: $naranjaOscuro;
+  }
+  .active{
+    background-color: $negro;
+    color: $blanco;
+  }
+  .btn-link{
+  color: $blanco;
+  }
+  .btn-link:hover{
+  color: $blanco;
+  }
+  .fa, .fas {
+    font-weight: 900;
+    float: right;
+    color: $blanco;
+  }
+}
+
+.btn btn-link i .fas fa-angle-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
 .navPriv:hover {
     a {
         color: $negro;
     }
+
 }
 
 .footerPages {
@@ -24,6 +57,12 @@
         color: #ff5000;
         padding-top: 30px;
     }
+  }
+  #cards, .col-5{    max-width: 55%;
+  padding-bottom: 15%;
+  padding-left: 10%;
+  }
+}
     .copyFooter {
         color: #7e7e7e;
         text-transform: uppercase;
@@ -123,14 +162,6 @@
             #textCard {
                 text-align: justify;
             }
-            #enseñar-aprender:hover {
-                background-color: $negro !important;
-                color: $blanco;
-                width: 300px;
-                height: 447px;
-                #footerCardPriv {
-                    display: none;
-                }
                 .arrow {
                     display: block;
                     font-size: 1000%;

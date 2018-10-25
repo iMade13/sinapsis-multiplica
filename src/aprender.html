@@ -8,52 +8,36 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/mxlogo.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-
-    <link rel="stylesheet" href="./css/components/aprender.css">
-
-    <link rel="stylesheet" href="./css/components/aprender.css">
-
+<link rel="stylesheet" href="css/main.css">
     <title>Sinapsis</title>
 </head>
 
 <body>
-    <section class="container-fluid">
-        <header class="row">
-            <h3 class="col-10">Sinapsis</h3>
-            <i class="fas fa-user"> User Name</i>
-        </header>
-
-
-        <section class="row" id="headerGrad">
-            <p id="pGrad">Quiero aprender</p>
-        </section>
-
-        <section class="container body-cursos">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-10 col-12 mx-auto">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" id="ajax" list="json-datalist" placeholder="Search" aria-label="Search">
-                        <datalist id="json-datalist"></datalist>
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                                <i class="fa fa-search"></i>
-                        </button>
-                    </form>
-                    <div class="col-4 dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                              Solo cursos de Chile
-                                            </button>
-                        <div id="city" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a value="" class="dropdown-item" href="#">Seleccionar sede</a>
-                            <!-- <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a> -->
-                        </div>
-                    </div>
+    <section class="navPriv">
+        <nav class="navbar navbar">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/img/multiplicaLogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
+            </a>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" class="profile" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"></i>
+            UserName
+          </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="./privado.html">Home</a>
+                    <a class="dropdown-item" id="signInBtn" onclick="logoutWithFireBase()">Log Out</a>
                 </div>
+            </div>
+        </nav>
+    </section>
+    <section class="container-fluid" id="grad">
+        <p class="pgrad">Quiero aprender</p>
+    </section>
+    <section>
+        <div class="img-aprender">
+            <img>
+        </div>
+    </section>
 
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -68,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-
+  
                 <div id="dscrp-cursos">
                     <div id="fotoUser">
                         <div id=" iconoDetalle"></div>
