@@ -10,8 +10,6 @@
     display: none; }
   #cards #titleCard {
     text-align: center; }
-  #cards #textCard {
-    text-align: justify; }
   #cards #ensenar-aprender:hover {
     background-color: #000000 !important;
     color: #ffffff;

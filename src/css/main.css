@@ -36,7 +36,7 @@
 #accordion .card-header {
   background-color: #000000; }
 
-#accordion .card-header:hover {
+#accordion .active {
   background-color: #ff5000;
   color: #ffffff; }
 
@@ -91,8 +91,13 @@
   margin-top: 2em; }
 
 .subtituloColaborar {
-  font-weight: 600;
-  padding-bottom: 1em; }
+  font-weight: 700;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: 0; }
+
+.textoPantallazo {
+  margin-bottom: 1em; }
 
 .beneficiosBtn {
   height: 50px;
@@ -101,7 +106,8 @@
   border-radius: 3px;
   border-color: #C2C2C2;
   background-color: #F6F6F6;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 1em; }
 
 .queEs {
   padding-top: 2em;
@@ -116,10 +122,12 @@
 
 .footer-box {
   display: flex;
-  justify-content: space-around;
   margin-bottom: 4em; }
 
 .cajaTituloCursos {
+  text-align: center; }
+
+.tituloCursos {
   text-align: center; }
 
 form .autocomplete {
@@ -151,9 +159,24 @@ div .input-cursos {
 div .box-lugar {
   margin-bottom: 20px; }
 
-button .btn-evento {
+.btn-evento {
   width: 140px;
-  height: 50px; }
+  height: 50px;
+  background-color: #3b3d41;
+  color: #ffffff;
+  text-align: center; }
+
+div .box-evento {
+  text-align: center;
+  margin-top: 50px; }
+
+div.custon-radio {
+  margin-top: 50px; }
+
+div .tarjetaExito {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-align: center; }
 
 .footerPages {
   margin-top: 5%;
@@ -191,8 +214,6 @@ button .btn-evento {
     display: none; }
   #cards #titleCard {
     text-align: center; }
-  #cards #textCard {
-    text-align: justify; }
   #cards #ensenar-aprender:hover {
     background-color: #000000 !important;
     color: #ffffff;

@@ -18,14 +18,27 @@
             <a class="navbar-brand" href="#">
                 <img src="../assets/img/multiplicaLogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
             </a>
-            <button id="signInBtn" onclick="logoutWithFireBase()">Log Out</button>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" class="profile" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"></i>
+                  UserName
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Mis Talleres</a>
+                    <a class="dropdown-item" id="signInBtn" onclick="logoutWithFireBase()">Log Out</a>
+                </div>
+            </div>
         </nav>
     </section>
 
     <div class="container">
         <div class="row">
-            <div class="col-10">
-
+            <div class="tarjetaExito col">
+                <figure>
+                    <img class="iconoExito" src="../assets/img/icono5.png" height="100px" width="100px" alt="">
+                </figure>
+                <h5>Mensaje generico de éxito</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Reprehenderit voluptas odio alias <br>quaerat quod repellendus saepe quas unde, ipsa voluptatem!</p>
             </div>
         </div>
     </div>

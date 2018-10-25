@@ -27,6 +27,16 @@ div .input-cursos {
 div .box-lugar {
   margin-bottom: 20px; }
 
-button .btn-evento {
+.btn-evento {
   width: 140px;
-  height: 50px; }
+  height: 50px;
+  background-color: #3b3d41;
+  color: #ffffff;
+  text-align: center; }
+
+div .box-evento {
+  text-align: center;
+  margin-top: 50px; }
+
+div.custon-radio {
+  margin-top: 50px; }
