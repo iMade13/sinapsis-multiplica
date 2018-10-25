@@ -91,7 +91,7 @@ function autocomplete(inp, arr) {
 }
 
 const topics = 'api/topic.json';
-const city = "api/city.json";
+const cities = 'api/city.json';
 
 function getData(url) {
     return fetch(url, {
@@ -112,8 +112,13 @@ function getData(url) {
 getData(topics).then(response => {
     autocomplete(document.getElementById("inputTemas"), response.topics)
 });
-getData(city).then(response => {
-    autocomplete(document.getElementById("inputLugar"), response.city.name)
+
+getData(cities).then(response => {
+    data = [];
+    response.city.forEach(function(element) {
+        data.push(element.name);
+    });
+    autocomplete(document.getElementById("inputLugar"), data)
 });
 
 // autocomplete(document.getElementById("inputLugar"), city)
@@ -132,6 +137,7 @@ getData(city).then(response => {
 // firebase.initializeApp(config);
 
 function guardarCursos() {
+    debugger
     const tema = document.getElementById('inputTemas').value
     const titulo = document.getElementById('inputTaller').value
     const descripcion = document.getElementById('textareaDescripcion').value
