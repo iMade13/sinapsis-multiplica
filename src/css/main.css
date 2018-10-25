@@ -96,6 +96,17 @@
   left: auto;
   font-size: 16px; }
 
+@media (max-width: 414px) {
+  #accordion #collapseButtonAccordion {
+    text-align: left;
+    white-space: normal; }
+  #cards, .col-5 {
+    padding-bottom: 15%;
+    padding-left: 10%;
+    max-width: 55%; }
+  #cards #textCard {
+    font-size: 115%; } }
+
 .center-align {
   text-align: center;
   margin-bottom: 4em; }
