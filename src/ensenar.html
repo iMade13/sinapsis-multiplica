@@ -40,21 +40,14 @@
                         <textarea class="form-control " name=" " id="textareaDescripcion" cols="50 " rows="5 "></textarea>
                         <a href=" ">Agregar descripción completa</a>
                     </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <div class="custom-control custom-radio">
-                              <input type="radio" id="customRadio1" value="online" name="customRadio" class="custom-control-input">
-                              <label class="custom-control-label" for="customRadio1">Online</label>
-                            </div>                            
-                        </div>
-                        <div class="col-3">
-                            <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio2" value="presencial" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio2">Presencial</label>
-                            </div>
-                        </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioOnline" name="customRadioInline1" value="online" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Online</label>
                     </div>
-
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="radioPresencial" name="customRadioInline2" value="presencial" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Presencial</label>
+                    </div>
                     <div>
                         <label for="">Dia y hora del evento</label>
                         <input type="datetime-local" class="form-control input-cursos" id="fechas">
