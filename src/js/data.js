@@ -46,12 +46,31 @@ function dropdown(cities) {
     });
 };
 
-function showCourses() {
+// var database = firebase.database();
+// var userId = firebase.auth().currentUser.uid;
+// return firebase.database().ref('/users/' + userId).once('value').then(function(snapshot) {
+//   var username = (snapshot.val() && snapshot.val().username) || 'Anonymous';
+//   // ...
+// });
 
-}
+
+
+
+// function showCourses(topics) {
+//     if ('ajax' in obj && typeof(topics.id) === '' && !isNaN(obj.id)) {
+//         return true;
+//     } else {
+//         entradasInvalidas++;
+//         return false;
+//     }
+// }
+
+
+
 
 
 function filterTopics() {
+
 
 }
 const topics = 'api/topic.json';

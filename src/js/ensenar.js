@@ -110,7 +110,8 @@ function getData(url) {
 }
 
 getData(topics).then(response => {
-    autocomplete(document.getElementById("inputTemas"), response.topics)
+    autocomplete(document.getElementById("inputTemas"), response.topics);
+    autocomplete(document.getElementById("ajax"), response.topics);
 });
 
 getData(cities).then(response => {
