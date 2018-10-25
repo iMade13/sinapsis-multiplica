@@ -1,0 +1,32 @@
+@import 'var';
+
+.footerPages{
+  margin-top: 5%;
+  background-color: $negro;
+  color:$blanco;
+  padding-bottom: 60px;
+  .h4Footer{
+    color: $naranjaOscuro;
+    padding-top: 30px;
+  }
+  .copyFooter{
+    color: $grisMedio;
+    text-transform: uppercase;
+  }
+  .sinap{
+    text-align: justify;
+  }
+  .iconFooterPages{
+    font-size: 200%;
+    margin-left: 5%;
+    color: $naranjaOscuro;
+  }
+  .iconFooterPages:hover{
+    color: $blanco;
+  }
+  #iconsFoot{
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}

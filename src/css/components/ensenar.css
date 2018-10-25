@@ -1,0 +1,56 @@
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
+
+form .autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative; }
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0; }
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #d4d4d4; }
+
+label {
+  margin-top: 20px; }
+
+div .input-cursos {
+  height: 50px; }
+
+div .box-lugar {
+  margin-bottom: 20px; }
+
+button .btn-evento {
+  width: 140px;
+  height: 50px; }
