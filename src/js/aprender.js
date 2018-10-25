@@ -6,12 +6,11 @@ dropdown.length = 0;
 let defaultOption = document.createElement('option');
 defaultOption.text = 'Elige una ciudad';
 
-dropdown.add(defaultOption);
+//dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
 
-const url = 'http://mxdev.cl/desafio/city.json';
 
-fetch(url)
+fetch('../api/city.json')
     .then(
         function(response) {
             if (response.status !== 200) {
@@ -27,7 +26,7 @@ fetch(url)
                 for (let i = 0; i < data.length; i++) {
                     option = document.createElement('option');
                     option.text = data[i].name;
-                    option.value = data[i].abbreviation;
+                    option.value = data[i].address;
                     dropdown.add(option);
                 }
             });
