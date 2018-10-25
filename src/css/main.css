@@ -142,3 +142,8 @@ h3 {
 
 .cajaTituloCursos {
   text-align: center; }
+
+div .tarjetaExito {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-align: center; }
