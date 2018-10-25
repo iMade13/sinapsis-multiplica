@@ -2,6 +2,17 @@
 .navPriv a {
   color: #000000; }
 
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  margin-top: 3%; }
+  header .fa,
+  header .fas {
+    font-weight: 800;
+    font-size: 100%; }
+
+
 .navPriv:hover a {
   color: #000000; }
 

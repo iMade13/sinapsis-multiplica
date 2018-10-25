@@ -4,8 +4,20 @@
   height: 10px;
   border-radius: 100%; }
 
+
 .navPriv a {
   color: #000000; }
+
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  margin-top: 3%; }
+  header .fa,
+  header .fas {
+    font-weight: 800;
+    font-size: 100%; }
+
 
 .navPriv:hover a {
   color: #000000; }
@@ -168,3 +180,34 @@
 
 .cajaTituloCursos {
   text-align: center; }
+
+form .autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative; }
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%; }
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0; }
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4; }
+
+label {
+  margin-top: 20px; }
+
+div .input-cursos {
+  height: 50px; }
