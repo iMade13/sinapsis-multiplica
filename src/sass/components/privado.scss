@@ -1,70 +1,3 @@
-<<<<<<< HEAD
-@import 'var';
-
-* {
-  font-family: 'Open Sans', sans-serif;
-}
-
-#dropdownMenuButton{
-  background-color: $naranjaOscuro;
-  color: $blanco
-}
-
-#grad {
-    background-image: linear-gradient(to right, #FF5000, #FFCD00);
-    height: 150px;
-    margin: 0%;
-    .pgrad {
-        color: $blanco;
-        font-size: 150%;
-        text-align: center;
-        padding-top: 50px;
-    }
-}
-
-.quest{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-#accordion{
-  #collapseButtonAccordion{
-    color: $negro;
-  }
-  #collapseButtonAccordion:hover{
-    color: $negro;
-  }
-  #quest{
-    text-align: center;
-  }
-  .fa, .fas {
-    font-weight: 900;
-    float: right;
-  }
-}
-
-.btn btn-link i .fas fa-angle-down {
-	right: 12px;
-	left: auto;
-	font-size: 16px;
-}
-
-@media(max-width: 414px){
-  #accordion{
-    #collapseButtonAccordion{
-      font-size: 100%;
-      white-space: normal;
-      text-align: left;
-    }
-  }
-  #cards, .col-5{    max-width: 55%;
-  padding-bottom: 15%;
-  padding-left: 10%;
-  }
-}
-=======
                 @import 'var';
                 * {
                     font-family: 'Open Sans', sans-serif;
@@ -274,4 +207,3 @@
                         }
                     }
                 }
->>>>>>> a78c209c3318e913004051cc040f01097988d6f0
