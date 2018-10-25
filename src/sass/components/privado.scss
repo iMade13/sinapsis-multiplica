@@ -1,50 +1,113 @@
-* {
-    .row {
-        width: 100vw;
-    }
-    .col {
-        -ms-flex-preferred-size: 0;
-        flex-basis: 0;
-        -ms-flex-positive: 1;
-        flex-grow: 0;
-        max-width: 100%;
-    }
+@import 'var';
+
+header{
+  margin-top: 3%;
+  .fa, .fas {
+    font-weight: 800;
+    font-size: 100%;
+  }
 }
 
-header {
-    margin-top: 3%;
-    .fa,
-    .fas {
-        font-weight: 800;
-        font-size: 100%;
-    }
+nav{
+  a{
+    color: $negro;
+  }
 }
 
-footer {
-    #sinap {
-        text-align: justify;
-    }
-    i {
-        font-size: 200%;
-        margin-left: 5%;
-    }
+footer{
+  margin-top: 5%;
+  background-color: $negro;
+  color:$blanco;
+  padding-bottom: 60px;
+  #h4{
+    color: #ff5000;
+    padding-top: 30px;
+  }
+  #copy{
+    color: #7e7e7e;
+    text-transform: uppercase;
+  }
+  #sinap{
+    text-align: justify;
+  }
+  i{
+    font-size: 200%;
+    margin-left: 5%;
+    color: $naranjaOscuro;
+  }
+  i:hover{
+    color: $blanco;
+  }
+  #icon{
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
 }
 
 #grad {
     background-image: linear-gradient(to right, #FF5000, #FFCD00);
-    width: 100vw;
     height: 150px;
+    margin: 0%;
     #pgrad {
         color: white;
-        margin-top: 3%;
         font-size: 150%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
+        text-align: center;
+        padding-top: 50px;
     }
+}
+h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #cards {
     margin-top: -2%;
+    .card{
+      width: 300px;
+    }
+    .card-body{
+      height: 296px;
+    }
+    .card-footer{
+      height: 150px;
+    }
+    #arrow{
+      display:none;
+    }
+    h1{
+      text-align: center;      
+    }
+    h6{
+      text-align: justify;
+    }
+    .card:hover{
+      background-color: $negro !important;
+      color: $blanco;
+      width: 300px;
+      height: 447px;
+      .card-footer{
+        display: none;
+      }
+      #arrow{
+        display: block;
+        font-size: 1000%;
+        text-align: center;
+      }
+    }
+}
+#acordeon{
+  .btn-link{
+    color: $negro;
+  }
+  
+  .btn-link:hover{
+    color: $negro;
+  }
+  
+  #quest{
+    text-align: center;
+  }
 }
