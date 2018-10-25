@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/multiplicaLogo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
@@ -58,16 +59,12 @@
         <h3 class="queEs">¿Qué es Sinapsis?</h3>
         <div class="card-group card-group-home">
             <div class="card center-align">
-                <img class="icono " src="../assets/img/icono4.png" width="100" height="100" alt="Card image cap">
-
                 <div class="card-group">
                     <div class="card">
-                        <img class="card-img-top" src="" alt="Card image cap">
-
+                        <img class="icono " src="../assets/img/icono4.png" width="100" height="100" alt="Card image cap"
                         <div class="card-body">
                             <h5 class="card-title">Comparte Todo lo que sabes</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
                         </div>
                     </div>
                     <div class="card">
@@ -86,64 +83,85 @@
 
                         </div>
                     </div>
+
                 </div>
 
                 <div class="row">
                     <div class="col-12  center-align">
-                        <button class="startBtn">Comienza Ahora</button>
+                        <button class="startBtn" onclick="googleLoginwithFireBase()">Comienza Ahora</button>
                     </div>
                 </div>
     </section>
 
     <section>
-        <div>
-            <div class="row">
-                <div class="col-9 pantallazo">
-                    <img class="" src="../assets/img/pantallazo.jpeg" width="800px" alt="" srcset="">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-lg-6 pantallazo">
+                    <img src="../assets/img/pantallazo.jpeg" class="img-fluid" max-width="500px" alt="Responsive image">
                 </div>
-                <div class="col-3 textoPantallazo">
-                    <h2 class="subtituloColaborar">En solo 3 pasos ya puedes comenzar a colaborar</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam blanditiis minus ea, facilis odio itaque libero ab odit eius velit. Quae iste ut eaque magni distinctio repellendus temporibus quaerat.</p>
-                    <button class="beneficiosBtn">Ver mas beneficios</button>
+                <div class="col-12 col-lg-6 textoPantallazo">
+                    <h3 class="col-12 col-lg-6 subtituloColaborar">En solo 3 pasos ya puedes comenzar a colaborar</h3>
+                    <p class="col-12 col-lg-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam blanditiis minus ea, facilis odio itaque libero ab odit eius velit. Quae iste ut eaque magni distinctio repellendus temporibus quaerat.</p>
+                    <button class="col-12 col-lg-6 beneficiosBtn ">Ver mas beneficios</button>
                 </div>
             </div>
-            <div class="cajaTituloCursos">
-                <h2 class="tituloTalleres">Mira los talleres que están programados</h2>
-            </div>
-
-            <div class="row footer-box">
-                <div class="col-2 cursosProgramados">
-                    <h3>Research</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
-                </div>
-                <div class="col-2 cursosProgramados">
-                    <h3>Ux</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
-                </div>
-                <div class="col-2 cursosProgramados">
-                    <h3>Ui</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
-                </div>
-                <div class="col-2 ">
-                    <h3>Front</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
-                </div>
-
-            </div>
-
         </div>
+        <div class="cajaTituloCursos">
+            <h2 class="tituloTalleres">Mira los talleres que están programados</h2>
+        </div>
+
+        <div class="row footer-box">
+            <div class="col-12 col-lg-2 cursosProgramados">
+                <h3>Research</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
+            </div>
+            <div class="col-12 col-lg-2 cursosProgramados">
+                <h3>Ux</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
+            </div>
+            <div class="col-12 col-lg-2 cursosProgramados">
+                <h3>Ui</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
+            </div>
+            <div class="col-12 col-lg-2 ">
+                <h3>Front</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
+            </div>
+        </div>
+
+
+                </div>
+
     </section>
 
 
-    <footer class="row">
-        <h4 class="col-9">Sinapsis</h4>
-        <p class="col-8" id="sinap">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius incidunt nostrum aperiam maiores natus, doloribus laudantium voluptas veritatis magni cupiditate officia tempora animi reprehenderit, ab sequi dicta perspiciatis.</p>
-
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-linkedin"></i>
-
-        <p class="col-12">© 2018 Multiplica Chile</p>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h4 id="h4">Sinapsis</h4>
+                    <p id="sinap">Armemos juntos una red en la cual podamos compartir conocimientos que impulsen la empresa y tu carrera profesional.</p>
+                </div>
+                <div class="col-6" id="icon">
+                    <a href="https://es-la.facebook.com/Multiplica/" target="_blank">
+                        <i class="fab fa-facebook" target="_blank"></i>
+                    </a>
+                    <a href="https://twitter.com/multiplica?lang=es" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/multiplica" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/multiplica/?hl=es-la" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/Multiplicaplay" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <p class="col-12" id="copy">© 2018 Multiplica Chile</p>
+            </div>
+        </div>
     </footer>
 
     <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
