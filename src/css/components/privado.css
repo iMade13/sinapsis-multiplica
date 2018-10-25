@@ -19,20 +19,26 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  margin-bottom: 5%; }
-
-#accordion #collapseButtonAccordion {
-  color: #000000; }
-
-#accordion #collapseButtonAccordion:hover {
-  color: #000000; }
-
-#accordion #quest {
+  margin-bottom: 5%;
   text-align: center; }
+
+#accordion .card-header {
+  background-color: #000000; }
+
+#accordion .card-header:hover {
+  background-color: #ff5000;
+  color: #ffffff; }
+
+#accordion .btn-link {
+  color: #ffffff; }
+
+#accordion .btn-link:hover {
+  color: #ffffff; }
 
 #accordion .fa, #accordion .fas {
   font-weight: 900;
-  float: right; }
+  float: right;
+  color: #ffffff; }
 
 .btn btn-link i .fas fa-angle-down {
   right: 12px;

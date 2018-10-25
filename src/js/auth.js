@@ -13,12 +13,14 @@ firebase.initializeApp(config);
 function googleLoginwithFireBase() {
 
     let provider = new firebase.auth.GoogleAuthProvider();
+    
 
     firebase.auth().signInWithPopup(provider).then(function(result) {
 
         redirectFromLogin()
     }).catch(function(e) {
         console.log(e)
+        console.log(result);
     });
 }
 

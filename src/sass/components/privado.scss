@@ -26,21 +26,26 @@
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  text-align: center;
 }
-
 #accordion{
-  #collapseButtonAccordion{
-    color: $negro;
+  .card-header{
+    background-color: $negro;
   }
-  #collapseButtonAccordion:hover{
-    color: $negro;
+  .card-header:hover {
+    background-color: $naranjaOscuro;
+    color: $blanco;
   }
-  #quest{
-    text-align: center;
+  .btn-link{
+  color: $blanco;
+  }
+  .btn-link:hover{
+  color: $blanco;
   }
   .fa, .fas {
     font-weight: 900;
     float: right;
+    color: $blanco;
   }
 }
 

@@ -1,0 +1,8 @@
+#proyectos {
+  margin-top: -2%;
+  margin-bottom: 3%;
+  margin-left: 38%; }
+
+@media (max-width: 414px) {
+  #proyectos {
+    margin-left: 3%; } }
