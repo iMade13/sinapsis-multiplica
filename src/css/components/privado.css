@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 .navPriv a {
   color: #000000; }
@@ -5,13 +6,34 @@
 * {
   font-family: 'Open Sans', sans-serif; }
 
-header {
-  margin-top: 3%; }
-  header .fa,
-  header .fas {
-    font-weight: 800;
-    font-size: 100%; }
+=======
+<<<<<<< HEAD
+=======
+* .row {
+    width: 100vw;
+}
 
+* .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+>>>>>>> vista
+>>>>>>> vista
+header {
+    margin-top: 3%;
+}
+
+header .fa,
+header .fas {
+    font-weight: 800;
+    font-size: 100%;
+}
+
+<<<<<<< HEAD
 
 .navPriv:hover a {
   color: #000000; }
@@ -28,6 +50,12 @@ header {
     color: #7e7e7e;
     text-transform: uppercase; }
   .footerPages .sinap {
+=======
+<<<<<<< HEAD
+footer {
+  margin-top: 5%; }
+  footer #sinap {
+>>>>>>> vista
     text-align: justify; }
   .footerPages .iconFooterPages {
     font-size: 200%;
@@ -39,22 +67,54 @@ header {
     text-align: right;
     margin-bottom: auto;
     margin-top: auto; }
+=======
+footer #sinap {
+    text-align: justify;
+}
+
+footer i {
+    font-size: 200%;
+    margin-left: 5%;
+}
+>>>>>>> vista
 
 #grad {
+<<<<<<< HEAD
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
   height: 150px;
   margin: 0%; }
   #grad .pgrad {
+=======
+    background-image: linear-gradient(to right, #FF5000, #FFCD00);
+    width: 100vw;
+    height: 150px;
+}
+
+#grad #pgrad {
+>>>>>>> vista
     color: white;
     font-size: 150%;
+<<<<<<< HEAD
     text-align: center;
     padding-top: 50px; }
+=======
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#cards {
+<<<<<<< HEAD
+  margin-top: -2%; }
+>>>>>>> vista
 
 #quest {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%; }
+<<<<<<< HEAD
 
 #cards {
   margin-top: -2%; }
@@ -101,3 +161,9 @@ header {
   right: 12px;
   left: auto;
   font-size: 16px; }
+=======
+=======
+    margin-top: -2%;
+}
+>>>>>>> vista
+>>>>>>> vista
