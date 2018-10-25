@@ -1,61 +1,3 @@
-// const topics = [
-//     "A/B Testing",
-//     "accesibility",
-//     "agile",
-//     "angular",
-//     "artificial intelligence",
-//     "augmented reality",
-//     "axure",
-//     "cardsorting",
-//     "content manager",
-//     "css",
-//     "figma",
-//     "gestal priciple",
-//     "google analytics",
-//     "HCI",
-//     "html",
-//     "illustrator",
-//     "information architecture",
-//     "interaction design",
-//     "invision",
-//     "jquery",
-//     "json",
-//     "machine learning",
-//     "marvel",
-//     "photoshop",
-//     "php",
-//     "prototype",
-//     "rails",
-//     "responsive design",
-//     "ruby",
-//     "scrum",
-//     "sketch",
-//     "sublime text",
-//     "trello",
-//     "ui",
-//     "user research",
-//     "ux",
-//     "vue",
-//     "vui",
-//     "wordpress"
-// ]
-
-// const city = [
-//     "Barcelina",
-//     "Berlín",
-//     "Bogotá",
-//     "Buenos Aires",
-//     "Ciudad de México",
-//     "Guayaquil",
-//     "Lima",
-//     "Madrid",
-//     "Miami",
-//     "Medellin",
-//     "Santo Domingo",
-//     "San Francisco",
-//     "Santiago de Chile"
-// ]
-
 function autocomplete(inp, arr) {
     let currentFocus;
     /*execute a function when someone writes in the text field:*/
@@ -151,21 +93,20 @@ function autocomplete(inp, arr) {
 const topics = 'api/topic.json';
 const cities = 'api/city.json';
 
-function getData(url){
-    return fetch(url,
-    {
-    method: "GET",
-    headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-    },
-    })
-    .then((response) => response.json())
-    .then((responseData) => {
-      console.warn(responseData);
-      return responseData;
-    })
-    .catch(error => console.warn(error));    
+function getData(url) {
+    return fetch(url, {
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+        })
+        .then((response) => response.json())
+        .then((responseData) => {
+            console.warn(responseData);
+            return responseData;
+        })
+        .catch(error => console.warn(error));
 }
 
 getData(topics).then(response => {
@@ -173,7 +114,7 @@ getData(topics).then(response => {
 });
 
 getData(cities).then(response => {
-    data = [];    
+    data = [];
     response.city.forEach(function(element) {
         data.push(element.name);
     });
@@ -196,6 +137,7 @@ getData(cities).then(response => {
 // firebase.initializeApp(config);
 
 function guardarCursos() {
+
     const tema = document.getElementById('inputTemas').value
     const titulo = document.getElementById('inputTaller').value
     const descripcion = document.getElementById('textareaDescripcion').value
