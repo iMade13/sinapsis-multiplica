@@ -1,27 +1,3 @@
-.footerPages {
-  margin-top: 5%;
-  background-color: #000000;
-  color: #ffffff;
-  padding-bottom: 60px; }
-  .footerPages .h4Footer {
-    color: #ff5000;
-    padding-top: 30px; }
-  .footerPages .copyFooter {
-    color: #7e7e7e;
-    text-transform: uppercase; }
-  .footerPages .sinap {
-    text-align: justify; }
-  .footerPages .iconFooterPages {
-    font-size: 200%;
-    margin-left: 5%;
-    color: #ff5000; }
-  .footerPages .iconFooterPages:hover {
-    color: #ffffff; }
-  .footerPages #iconsFoot {
-    text-align: right;
-    margin-bottom: auto;
-    margin-top: auto; }
-
 form .autocomplete {
   /*the container must be positioned relative:*/
   position: relative; }
@@ -64,3 +40,14 @@ div .box-evento {
 
 div.custon-radio {
   margin-top: 50px; }
+
+.headlong {
+  text-align: center; }
+  .headlong .pgrad {
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 600;
+    display: inline-block; }
+
+.footerPages {
+  width: 100%; }
