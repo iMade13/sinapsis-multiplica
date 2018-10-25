@@ -6,6 +6,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .navPriv a {
   color: #000000; }
@@ -15,6 +16,8 @@
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> origin
 =======
 * .row {
     width: 100vw;
@@ -29,7 +32,10 @@
 }
 
 >>>>>>> vista
+<<<<<<< HEAD
 >>>>>>> vista
+=======
+>>>>>>> origin
 header {
     margin-top: 3%;
 }
@@ -39,6 +45,7 @@ header .fas {
     font-weight: 800;
     font-size: 100%;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -58,6 +65,9 @@ header .fas {
     text-transform: uppercase; }
   .footerPages .sinap {
 =======
+=======
+
+>>>>>>> origin
 <<<<<<< HEAD
 footer {
   margin-top: 5%; }
@@ -87,18 +97,24 @@ footer i {
 
 #grad {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: linear-gradient(to right, #FF5000, #FFCD00);
   height: 150px;
   margin: 0%; }
   #grad .pgrad {
 =======
+=======
+>>>>>>> origin
     background-image: linear-gradient(to right, #FF5000, #FFCD00);
     width: 100vw;
     height: 150px;
 }
 
 #grad #pgrad {
+<<<<<<< HEAD
 >>>>>>> vista
+=======
+>>>>>>> origin
     color: white;
     font-size: 150%;
 <<<<<<< HEAD
@@ -121,6 +137,7 @@ footer i {
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #cards {
@@ -257,7 +274,12 @@ div .input-cursos {
   height: 50px; }
 =======
 =======
+>>>>>>> origin
+=======
     margin-top: -2%;
 }
 >>>>>>> vista
+<<<<<<< HEAD
 >>>>>>> vista
+=======
+>>>>>>> origin
