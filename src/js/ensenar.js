@@ -149,29 +149,30 @@ function autocomplete(inp, arr) {
 }
 
 const url = 'api/topic.json';
-let topics = '';
 
-fetch(url)
-    .then(
-        function(response) {
-            if (response.status !== 200) {
-                console.warn('Looks like there was a problem. Status Code: ' +
-                    response.status);
-                return;
-            }
-            response.json().then(function(data) {
-                console.log(data)
-                topics = data
+function getData(){
+    return fetch(url,
+    {
+    method: "GET",
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+    },
+    })
+    .then((response) => response.json())
+    .then((responseData) => {
+      console.warn(responseData);
+      return responseData.topics;
+    })
+    .catch(error => console.warn(error));    
+}
 
-            });
-        }
-    )
-    .catch(function(err) {
-        console.error('Fetch Error -', err);
-    });
+getData().then(response => {
+    autocomplete(document.getElementById("inputTemas"), response)
+});
 
-autocomplete(document.getElementById("inputTemas"), topics)
-    // autocomplete(document.getElementById("inputLugar"), city)
+// autocomplete(document.getElementById("inputLugar"), city)
+
 
 /* ====  FORM   ===== */
 
