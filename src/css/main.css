@@ -12,6 +12,7 @@
 * {
   font-family: 'Open Sans', sans-serif; }
 
+
 #dropdownMenuButton {
   background-color: #ff5000;
   color: #ffffff; }
@@ -65,6 +66,152 @@
     max-width: 55%;
     padding-bottom: 15%;
     padding-left: 10%; } }
+
+.navPriv a {
+  color: #000000; }
+
+.navPriv:hover a {
+  color: #000000; }
+
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
+  .footerPages header {
+    margin-top: 3%; }
+    .footerPages header .fa,
+    .footerPages header .fas {
+      font-weight: 800;
+      font-size: 100%; }
+  .footerPages nav a {
+    color: #000000; }
+  .footerPages footer {
+    margin-top: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 60px; }
+    .footerPages footer #h4 {
+      color: #ff5000;
+      padding-top: 30px; }
+    .footerPages footer #copy {
+      color: #7e7e7e;
+      text-transform: uppercase; }
+    .footerPages footer #sinap {
+      text-align: justify; }
+    .footerPages footer i {
+      font-size: 200%;
+      margin-left: 5%;
+      color: #ff5000; }
+    .footerPages footer i:hover {
+      color: #ffffff; }
+    .footerPages footer #icon {
+      text-align: right;
+      margin-bottom: auto;
+      margin-top: auto; }
+  .footerPages #grad {
+    background-image: linear-gradient(to right, #FF5000, #FFCD00);
+    height: 150px;
+    margin: 0%; }
+    .footerPages #grad .pgrad {
+      color: white;
+      font-size: 150%;
+      text-align: center;
+      padding-top: 50px; }
+  .footerPages #quest {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    .footerPages #quest #cards {
+      margin-top: -2%; }
+      .footerPages #quest #cards #enseñar-aprender {
+        width: 300px; }
+      .footerPages #quest #cards #bodyCardPriv {
+        height: 296px; }
+      .footerPages #quest #cards #footerCardPriv {
+        height: 150px; }
+      .footerPages #quest #cards .arrow {
+        display: none; }
+      .footerPages #quest #cards #titleCard {
+        text-align: center; }
+      .footerPages #quest #cards #textCard {
+        text-align: justify; }
+      .footerPages #quest #cards #enseñar-aprender:hover {
+        background-color: #000000 !important;
+        color: #ffffff;
+        width: 300px;
+        height: 447px; }
+        .footerPages #quest #cards #enseñar-aprender:hover #footerCardPriv {
+          display: none; }
+        .footerPages #quest #cards #enseñar-aprender:hover .arrow {
+          display: block;
+          font-size: 1000%;
+          text-align: center; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card {
+          width: 300px; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card-body {
+          height: 296px; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card-footer {
+          height: 150px; }
+        .footerPages #quest #cards #enseñar-aprender:hover #arrow {
+          display: none; }
+        .footerPages #quest #cards #enseñar-aprender:hover h1 {
+          text-align: center; }
+        .footerPages #quest #cards #enseñar-aprender:hover h6 {
+          text-align: justify; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card:hover {
+          background-color: #000000 !important;
+          color: #ffffff;
+          width: 300px;
+          height: 447px; }
+          .footerPages #quest #cards #enseñar-aprender:hover .card:hover .card-footer {
+            display: none; }
+          .footerPages #quest #cards #enseñar-aprender:hover .card:hover #arrow {
+            display: block;
+            font-size: 1000%;
+            text-align: center; }
+        .footerPages #quest #cards #enseñar-aprender:hover a.arrow {
+          color: #ffffff; }
+      .footerPages #quest #cards #accordion #collapseButtonAccordion {
+        color: #000000; }
+      .footerPages #quest #cards #accordion #collapseButtonAccordion:hover {
+        color: #000000; }
+      .footerPages #quest #cards #accordion #quest {
+        text-align: center; }
+      .footerPages #quest #cards #accordion .fa,
+      .footerPages #quest #cards #accordion .fas {
+        font-weight: 900;
+        float: right; }
+      .footerPages #quest #cards .btn btn-link i .fas fa-angle-down {
+        right: 12px;
+        left: auto;
+        font-size: 16px; }
+        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link {
+          color: #000000; }
+        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link:hover {
+          color: #000000; }
+        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon #quest {
+          text-align: center; }
+
 
 .center-align {
   text-align: center;
@@ -148,7 +295,8 @@ form .autocomplete {
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
-  border-bottom: 1px solid #d4d4d4; }
+  border-bottom: 1px solid #d4d4d4;
+  background: gainsboro; }
 
 label {
   margin-top: 20px; }
@@ -172,6 +320,11 @@ div .box-evento {
 
 div.custon-radio {
   margin-top: 50px; }
+
+#inputTemas div {
+  color: #495057;
+  background-color: #fff; }
+
 
 div .tarjetaExito {
   margin-top: 4em;
@@ -215,18 +368,22 @@ div .tarjetaExito {
   #cards #titleCard {
     text-align: center; }
   #cards #ensenar-aprender:hover {
+  #cards #textCard {
+    text-align: justify; }
     background-color: #000000 !important;
     color: #ffffff;
     width: 300px;
     height: 447px; }
+
     #cards #ensenar-aprender:hover #footerCardPriv {
       display: none; }
     #cards #ensenar-aprender:hover .arrow {
-      display: block;
+     display: block;
       font-size: 1000%;
       text-align: center; }
   #cards a.arrow {
     color: #ffffff; }
+
 
 #proyectos {
   margin-top: -2%;
@@ -236,3 +393,81 @@ div .tarjetaExito {
 @media (max-width: 414px) {
   #proyectos {
     margin-left: 3%; } }
+
+* .row {
+  width: 100vw; }
+
+header {
+  margin-top: 3%; }
+
+header .fa,
+header .fas {
+  font-weight: 800;
+  font-size: 100%; }
+
+footer {
+  position: absolute;
+  bottom: 0%; }
+
+footer #sinap {
+  text-align: justify; }
+
+footer i {
+  font-size: 200%;
+  margin-left: 5%; }
+
+#grad {
+  background-image: linear-gradient(to right, #ff5000, #FFCD00);
+  width: 100vw;
+  height: 150px; }
+
+#grad #pgrad {
+  color: #ffffff;
+  margin-top: 3%;
+  font-size: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+#cursos-all {
+  color: #ffffff;
+  background-color: #ff5000;
+  border-radius: 4px;
+  border: 1px solid #ff5000;
+  border-bottom-width: thin; }
+
+#cursos-all:hover {
+  background-color: #cf400d;
+  border: 1px solid #cf400d; }
+
+.small-btn {
+  border: 1px solid #7e7e7e;
+  color: #ff5000;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border-bottom-width: thin; }
+
+.small-btn:hover {
+  border: 1px solid #ff5000; }
+
+.dropdown-toggle {
+  color: #ffffff;
+  background-color: #ff5000;
+  border-radius: 4px;
+  border: 1px solid #ff5000; }
+
+.dropdown-toggle:hover {
+  background-color: #b43306;
+  border: 1px solid #b43306; }
+
+.btn-outline-success {
+  color: #ff5000;
+  background-color: #ffffff;
+  border: 1px solid #ff5000; }
+
+.btn-outline-succes:hover:focus {
+  color: #ffffff !important;
+  background-color: #b43306 !important;
+  border: 1px solid #b43306 !important; }
+
