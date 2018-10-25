@@ -109,8 +109,8 @@
     font-size: 100%;
     white-space: normal;
     text-align: left; }
-  #cards,
-  .col-5 {
+
+  #cards, .col-5 {
     max-width: 55%;
     padding-bottom: 15%;
     padding-left: 10%; } }
