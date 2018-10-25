@@ -148,16 +148,74 @@ function autocomplete(inp, arr) {
     });
 }
 
-// fetch(`api/topic.json`)
-//     .then(response => response.json())
-//     .then(data => {
-//         console.log(data);
-//         data.forEach(function(cursos) {
-//             return cursos;
-//         })
-//     })
+// const url = 'api/topic.json';
+
+// fetch(url)
+//     .then(
+//         function(response) {
+//             if (response.status !== 200) {
+//                 console.warn('Looks like there was a problem. Status Code: ' +
+//                     response.status);
+//                 return;
+//             }
+//             response.json().then(function(data) {
+//                 console.log(data)
+//                 for (let i = 0; i < data.length; i++) {
+//              
+//                 }
+//             });
+//         }
+//     )
+//     .catch(function(err) {
+//         console.error('Fetch Error -', err);
+//     });
 
 autocomplete(document.getElementById("inputTemas"), topics)
 autocomplete(document.getElementById("inputLugar"), city)
 
-/* ====     ===== */
+/* ====  FORM   ===== */
+
+// var config = {
+//     apiKey: "AIzaSyBSE_WBV8P94cXkg9K0DmENNdkuuEvRH2k",
+//     authDomain: "sinapsis-multiplica.firebaseapp.com",
+//     databaseURL: "https://sinapsis-multiplica.firebaseio.com",
+//     projectId: "sinapsis-multiplica",
+//     storageBucket: "sinapsis-multiplica.appspot.com",
+//     messagingSenderId: "698338914142"
+// };
+// firebase.initializeApp(config);
+
+function guardarCursos() {
+    const tema = document.getElementById('inputTemas').value
+    const titulo = document.getElementById('inputTaller').value
+    const descripcion = document.getElementById('textareaDescripcion').value
+    const formatoOnline = document.getElementById('radioOnline').value
+    const formatoPresencial = document.getElementById('radioPresencial').value
+        // const fechas = document.getElementById('fechas').value
+    const lugar = document.getElementById('inputLugar').value
+
+    const db = firebase.firestore();
+    db.collection('evento').add({
+            tema: tema,
+            titulo: titulo,
+            descripcion: descripcion,
+            formatoOnline: formatoOnline,
+            formatoPresencial: formatoPresencial,
+            // fechas: fechas,
+            lugar: lugar
+        })
+        .then(function(docRef) {
+            console.log("Document written with ID: ", docRef.id);
+
+            document.getElementById('inputTemas').value = '';
+            document.getElementById('inputTaller').value = '';
+            document.getElementById('textareaDescripcion').value = '';
+            document.getElementById('radioOnline').value = '';
+            document.getElementById('radioPresencial').value = '';
+            // document.getElementById('fechas').value = '';
+            document.getElementById('inputLugar').value = '';
+        })
+        .catch(function(error) {
+            console.log("Error adding document: ", error);
+        });
+}
