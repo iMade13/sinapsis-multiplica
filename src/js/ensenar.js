@@ -1,61 +1,3 @@
-// const topics = [
-//     "A/B Testing",
-//     "accesibility",
-//     "agile",
-//     "angular",
-//     "artificial intelligence",
-//     "augmented reality",
-//     "axure",
-//     "cardsorting",
-//     "content manager",
-//     "css",
-//     "figma",
-//     "gestal priciple",
-//     "google analytics",
-//     "HCI",
-//     "html",
-//     "illustrator",
-//     "information architecture",
-//     "interaction design",
-//     "invision",
-//     "jquery",
-//     "json",
-//     "machine learning",
-//     "marvel",
-//     "photoshop",
-//     "php",
-//     "prototype",
-//     "rails",
-//     "responsive design",
-//     "ruby",
-//     "scrum",
-//     "sketch",
-//     "sublime text",
-//     "trello",
-//     "ui",
-//     "user research",
-//     "ux",
-//     "vue",
-//     "vui",
-//     "wordpress"
-// ]
-
-// const city = [
-//     "Barcelina",
-//     "Berlín",
-//     "Bogotá",
-//     "Buenos Aires",
-//     "Ciudad de México",
-//     "Guayaquil",
-//     "Lima",
-//     "Madrid",
-//     "Miami",
-//     "Medellin",
-//     "Santo Domingo",
-//     "San Francisco",
-//     "Santiago de Chile"
-// ]
-
 function autocomplete(inp, arr) {
     let currentFocus;
     /*execute a function when someone writes in the text field:*/
@@ -148,30 +90,39 @@ function autocomplete(inp, arr) {
     });
 }
 
-// const url = 'api/topic.json';
+const topics = 'api/topic.json';
+const cities = 'api/city.json';
 
-// fetch(url)
-//     .then(
-//         function(response) {
-//             if (response.status !== 200) {
-//                 console.warn('Looks like there was a problem. Status Code: ' +
-//                     response.status);
-//                 return;
-//             }
-//             response.json().then(function(data) {
-//                 console.log(data)
-//                 for (let i = 0; i < data.length; i++) {
-//              
-//                 }
-//             });
-//         }
-//     )
-//     .catch(function(err) {
-//         console.error('Fetch Error -', err);
-//     });
+function getData(url) {
+    return fetch(url, {
+            method: "GET",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+        })
+        .then((response) => response.json())
+        .then((responseData) => {
+            console.warn(responseData);
+            return responseData;
+        })
+        .catch(error => console.warn(error));
+}
 
-autocomplete(document.getElementById("inputTemas"), topics)
-autocomplete(document.getElementById("inputLugar"), city)
+getData(topics).then(response => {
+    autocomplete(document.getElementById("inputTemas"), response.topics)
+});
+
+getData(cities).then(response => {
+    data = [];
+    response.city.forEach(function(element) {
+        data.push(element.name);
+    });
+    autocomplete(document.getElementById("inputLugar"), data)
+});
+
+// autocomplete(document.getElementById("inputLugar"), city)
+
 
 /* ====  FORM   ===== */
 
@@ -186,6 +137,7 @@ autocomplete(document.getElementById("inputLugar"), city)
 // firebase.initializeApp(config);
 
 function guardarCursos() {
+    debugger
     const tema = document.getElementById('inputTemas').value
     const titulo = document.getElementById('inputTaller').value
     const descripcion = document.getElementById('textareaDescripcion').value
