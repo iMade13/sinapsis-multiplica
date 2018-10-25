@@ -24,7 +24,7 @@ function googleLoginwithFireBase() {
 
 //
 function redirectFromLogin() {
-    location.href = "homePrivado.html";
+    location.href = "privado.html";
 }
 
 function logoutWithFireBase() {
