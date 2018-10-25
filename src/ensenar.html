@@ -20,7 +20,7 @@
             <button id="signInBtn" onclick="logoutWithFireBase()">Salir</button>
         </nav>
     </section>
-    <section class="container-fluid" id="grad">
+    <section class="container-fluid headlong" id="grad">
         <p class="pgrad">¿Qué deseas hacer?</p>
     </section>
     <section class="container">
@@ -40,14 +40,20 @@
                         <textarea class="form-control " e=" " id="textareaDescripcion" cols="50 " rows="5 "></textarea>
                         <a href=" ">Agregar descripción completa</a>
                     </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="radioOnline" e="customRadioInline1" value="online" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline1">Online</label>
-                    </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="radioPresencial" e="customRadioInline2" value="presencial" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline2">Presencial</label>
-                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="customRadio1" value="online" name="customRadio" class="custom-control-input">
+                              <label class="custom-control-label" for="customRadio1">Online</label>
+                            </div>                            
+                        </div>
+                        <div class="col-3">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" value="presencial" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Presencial</label>
+                            </div>
+                        </div>
                     <div>
                         <label for="">Dia y hora del evento</label>
                     </div>
@@ -83,7 +89,6 @@
                 </form>
             </div>
         </div>
-
         <footer class="footerPages">
             <div class="container">
                 <div class="row">
@@ -109,17 +114,40 @@
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
+    </section>
+    <footer class="footerPages">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h4 class="h4Footer">Sinapsis</h4>
+                    <p class="sinap">Armemos juntos una red en la cual podamos compartir conocimientos que impulsen la empresa y tu carrera profesional.</p>
+                </div>
+                <div class="col-6" id="iconsFoot">
+                    <div>
+                        <a class="iconFooterPages" href="https://es-la.facebook.com/Multiplica/" target="_blank">
+                            <i class="fab fa-facebook" target="_blank"></i>
+                        </a>
+                        <a class="iconFooterPages" href="https://twitter.com/multiplica?lang=es" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a class="iconFooterPages" href="https://www.linkedin.com/company/multiplica" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="iconFooterPages" href="https://www.instagram.com/multiplica/?hl=es-la" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="iconFooterPages" href="https://www.youtube.com/c/Multiplicaplay" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
 
-                    </div>
-                    <div class="copyFooter">
-                        <p class="col-12">© 2018 Multiplica Chile</p>
-                    </div>
+                </div>
+                <div class="copyFooter">
+                    <p class="col-12">© 2018 Multiplica Chile</p>
                 </div>
             </div>
-        </footer>
-
-
-    </section>
+        </div>
+    </footer>    
 
     <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js "></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>

@@ -1,28 +1,17 @@
-@charset "UTF-8";
 #cards {
-  margin-top: -2%; }
-  #cards #enseñar-aprender {
-    width: 300px; }
+  margin-top: -20px; }
+  #cards #ensenar-aprender {
+    margin-bottom: 50px; }
   #cards #bodyCardPriv {
-    height: 296px; }
-  #cards #footerCardPriv {
-    height: 150px; }
+    height: 200px; }
   #cards .arrow {
     display: none; }
   #cards #titleCard {
     text-align: center; }
   #cards #textCard {
     text-align: justify; }
-  #cards #enseñar-aprender:hover {
-    background-color: #000000 !important;
-    color: #ffffff;
-    width: 300px;
-    height: 447px; }
-    #cards #enseñar-aprender:hover #footerCardPriv {
-      display: none; }
-    #cards #enseñar-aprender:hover .arrow {
-      display: block;
-      font-size: 1000%;
-      text-align: center; }
+  #cards #ensenar-aprender:hover .arrow {
+    display: block;
+    text-align: center; }
   #cards a.arrow {
     color: #ffffff; }

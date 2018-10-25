@@ -40,3 +40,14 @@ div .box-evento {
 
 div.custon-radio {
   margin-top: 50px; }
+
+.headlong {
+  text-align: center; }
+  .headlong .pgrad {
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 600;
+    display: inline-block; }
+
+.footerPages {
+  width: 100%; }

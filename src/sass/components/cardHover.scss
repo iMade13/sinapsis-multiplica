@@ -1,15 +1,15 @@
 @import 'var';
 
 #cards {
-  margin-top: -2%;
-    #enseñar-aprender{
-      width: 300px;
+  margin-top: -20px;
+    #ensenar-aprender{
+     margin-bottom: 50px;  
     }
     #bodyCardPriv{
-      height: 296px;
+      height: 200px;
     }
     #footerCardPriv{
-      height: 150px;
+      // height: 150px;
     }
     .arrow{
       display:none;
@@ -20,17 +20,14 @@
     #textCard{
       text-align: justify;
     }
-    #enseñar-aprender:hover{
-      background-color: $negro !important;
-      color: $blanco;
-      width: 300px;
-      height: 447px;
+    #ensenar-aprender:hover{
+      // background-color: $negro !important;
+      // color: $blanco;
       #footerCardPriv{
-        display: none;
+        // display: none;
       }
       .arrow{
         display: block;
-        font-size: 1000%;
         text-align: center;
       }
     }
