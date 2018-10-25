@@ -1,59 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> vista
 @charset "UTF-8";
-.navPriv a {
-  color: #000000; }
-
 * {
   font-family: 'Open Sans', sans-serif; }
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin
-=======
-=======
->>>>>>> vista
-* .row {
-    width: 100vw;
-}
-
-* .col {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 0;
-    max-width: 100%;
-}
-
->>>>>>> vista
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> vista
-=======
->>>>>>> origin
-=======
->>>>>>> vista
->>>>>>> vista
-header {
-    margin-top: 3%;
-}
-
-header .fa,
-header .fas {
-    font-weight: 800;
-    font-size: 100%;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> vista
+.navPriv a {
+  color: #000000; }
 
 .navPriv:hover a {
   color: #000000; }
@@ -70,17 +20,6 @@ header .fas {
     color: #7e7e7e;
     text-transform: uppercase; }
   .footerPages .sinap {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin
-=======
->>>>>>> vista
-footer {
-  margin-top: 5%; }
-  footer #sinap {
->>>>>>> vista
     text-align: justify; }
   .footerPages .iconFooterPages {
     font-size: 200%;
@@ -92,135 +31,118 @@ footer {
     text-align: right;
     margin-bottom: auto;
     margin-top: auto; }
-=======
-footer #sinap {
-    text-align: justify;
-}
-
-footer i {
-    font-size: 200%;
-    margin-left: 5%;
-}
->>>>>>> vista
-
-#grad {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> vista
-  background-image: linear-gradient(to right, #FF5000, #FFCD00);
-  height: 150px;
-  margin: 0%; }
-  #grad .pgrad {
-=======
-<<<<<<< HEAD
-=======
->>>>>>> origin
-=======
->>>>>>> vista
+  .footerPages header {
+    margin-top: 3%; }
+    .footerPages header .fa,
+    .footerPages header .fas {
+      font-weight: 800;
+      font-size: 100%; }
+  .footerPages nav a {
+    color: #000000; }
+  .footerPages footer {
+    margin-top: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 60px; }
+    .footerPages footer #h4 {
+      color: #ff5000;
+      padding-top: 30px; }
+    .footerPages footer #copy {
+      color: #7e7e7e;
+      text-transform: uppercase; }
+    .footerPages footer #sinap {
+      text-align: justify; }
+    .footerPages footer i {
+      font-size: 200%;
+      margin-left: 5%;
+      color: #ff5000; }
+    .footerPages footer i:hover {
+      color: #ffffff; }
+    .footerPages footer #icon {
+      text-align: right;
+      margin-bottom: auto;
+      margin-top: auto; }
+  .footerPages #grad {
     background-image: linear-gradient(to right, #FF5000, #FFCD00);
-    width: 100vw;
     height: 150px;
-}
-
-#grad #pgrad {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> vista
-=======
->>>>>>> origin
-=======
->>>>>>> vista
->>>>>>> vista
-    color: white;
-    font-size: 150%;
-<<<<<<< HEAD
-    text-align: center;
-    padding-top: 50px; }
-=======
+    margin: 0%; }
+    .footerPages #grad .pgrad {
+      color: white;
+      font-size: 150%;
+      text-align: center;
+      padding-top: 50px; }
+  .footerPages #quest {
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-#cards {
-<<<<<<< HEAD
-  margin-top: -2%; }
->>>>>>> vista
-
-#quest {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> vista
-
-#cards {
-  margin-top: -2%; }
-  #cards #enseñar-aprender {
-    width: 300px; }
-  #cards #bodyCardPriv {
-    height: 296px; }
-  #cards #footerCardPriv {
-    height: 150px; }
-  #cards .arrow {
-    display: none; }
-  #cards #titleCard {
-    text-align: center; }
-  #cards #textCard {
-    text-align: justify; }
-  #cards #enseñar-aprender:hover {
-    background-color: #000000 !important;
-    color: #ffffff;
-    width: 300px;
-    height: 447px; }
-    #cards #enseñar-aprender:hover #footerCardPriv {
-      display: none; }
-    #cards #enseñar-aprender:hover .arrow {
-      display: block;
-      font-size: 1000%;
-      text-align: center; }
-  #cards a.arrow {
-    color: #ffffff; }
-
-#accordion #collapseButtonAccordion {
-  color: #000000; }
-
-#accordion #collapseButtonAccordion:hover {
-  color: #000000; }
-
-#accordion #quest {
-  text-align: center; }
-
-#accordion .fa, #accordion .fas {
-  font-weight: 900;
-  float: right; }
-
-.btn btn-link i .fas fa-angle-down {
-  right: 12px;
-  left: auto;
-  font-size: 16px; }
-=======
-=======
-<<<<<<< HEAD
->>>>>>> origin
-=======
-    margin-top: -2%;
-}
->>>>>>> vista
-<<<<<<< HEAD
->>>>>>> vista
-=======
->>>>>>> origin
-=======
-    margin-top: -2%;
-}
->>>>>>> vista
->>>>>>> vista
->>>>>>> vista
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    .footerPages #quest #cards {
+      margin-top: -2%; }
+      .footerPages #quest #cards #enseñar-aprender {
+        width: 300px; }
+      .footerPages #quest #cards #bodyCardPriv {
+        height: 296px; }
+      .footerPages #quest #cards #footerCardPriv {
+        height: 150px; }
+      .footerPages #quest #cards .arrow {
+        display: none; }
+      .footerPages #quest #cards #titleCard {
+        text-align: center; }
+      .footerPages #quest #cards #textCard {
+        text-align: justify; }
+      .footerPages #quest #cards #enseñar-aprender:hover {
+        background-color: #000000 !important;
+        color: #ffffff;
+        width: 300px;
+        height: 447px; }
+        .footerPages #quest #cards #enseñar-aprender:hover #footerCardPriv {
+          display: none; }
+        .footerPages #quest #cards #enseñar-aprender:hover .arrow {
+          display: block;
+          font-size: 1000%;
+          text-align: center; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card {
+          width: 300px; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card-body {
+          height: 296px; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card-footer {
+          height: 150px; }
+        .footerPages #quest #cards #enseñar-aprender:hover #arrow {
+          display: none; }
+        .footerPages #quest #cards #enseñar-aprender:hover h1 {
+          text-align: center; }
+        .footerPages #quest #cards #enseñar-aprender:hover h6 {
+          text-align: justify; }
+        .footerPages #quest #cards #enseñar-aprender:hover .card:hover {
+          background-color: #000000 !important;
+          color: #ffffff;
+          width: 300px;
+          height: 447px; }
+          .footerPages #quest #cards #enseñar-aprender:hover .card:hover .card-footer {
+            display: none; }
+          .footerPages #quest #cards #enseñar-aprender:hover .card:hover #arrow {
+            display: block;
+            font-size: 1000%;
+            text-align: center; }
+        .footerPages #quest #cards #enseñar-aprender:hover a.arrow {
+          color: #ffffff; }
+      .footerPages #quest #cards #accordion #collapseButtonAccordion {
+        color: #000000; }
+      .footerPages #quest #cards #accordion #collapseButtonAccordion:hover {
+        color: #000000; }
+      .footerPages #quest #cards #accordion #quest {
+        text-align: center; }
+      .footerPages #quest #cards #accordion .fa,
+      .footerPages #quest #cards #accordion .fas {
+        font-weight: 900;
+        float: right; }
+      .footerPages #quest #cards .btn btn-link i .fas fa-angle-down {
+        right: 12px;
+        left: auto;
+        font-size: 16px; }
+        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link {
+          color: #000000; }
+        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link:hover {
+          color: #000000; }
+        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon #quest {
+          text-align: center; }
