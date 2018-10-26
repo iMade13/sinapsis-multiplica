@@ -9,69 +9,52 @@
 .navPriv:hover a {
   color: #000000; }
 
-.center-align {
-  text-align: center;
-  margin-bottom: 4em; }
+/* == header == **/
+* {
+  font-family: 'Open Sans', sans-serif; }
 
-.card-group-home {
-  margin-top: 2em;
-  margin-bottom: 4em;
-  padding-top: 1em; }
-  .card-group-home .card {
-    text-align: center;
-    padding-top: 1em; }
-    .card-group-home .card .icono {
-      margin: 0 auto; }
+header .box-header {
+  padding: 30px;
+  margin-right: 0; }
 
-.pantallazo {
-  margin-bottom: 4em; }
+header .logo-header img {
+  width: 60px;
+  height: 60px; }
 
-.startBtn {
-  height: 3em;
-  width: 15em;
-  background-color: #3B3D41;
-  color: white;
-  margin-top: 2em; }
+header .title-header {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 2em; }
 
-.subtituloColaborar {
-  font-weight: 700;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  margin-bottom: 0; }
-
-.textoPantallazo {
-  margin-bottom: 1em; }
-
-.beneficiosBtn {
-  height: 50px;
-  width: 207px;
-  margin-bottom: 4em;
-  border-radius: 3px;
-  border-color: #C2C2C2;
-  background-color: #F6F6F6;
-  justify-content: center;
-  margin-top: 1em; }
-
-.queEs {
-  padding-top: 2em;
-  padding-bottom: 1em;
-  text-align: center; }
-
-.tituloTalleres {
-  margin-bottom: 3em; }
-
-.cursosProgramados {
-  border-right: 1px solid #7E7E7E; }
-
-.footer-box {
+header .box-info {
   display: flex;
-  margin-bottom: 4em; }
+  align-items: center;
+  justify-content: flex-end; }
 
-.cajaTituloCursos {
-  text-align: center; }
+header .info-header {
+  font-size: 16px; }
 
-.tituloCursos {
-  text-align: center; }
+header span {
+  text-decoration-line: underline; }
+
+header .btn-login {
+  width: 140px;
+  height: 50px;
+  background-color: #3b3d41;
+  color: #ffffff;
+  margin-left: 25px; }
+
+@media only screen and (max-width: 465px) {
+  header .box-header {
+    padding-right: 0; }
+  header .info-header {
+    display: none; }
+  header .logo-header {
+    text-align: left;
+    display: inline-flex;
+    align-items: center; }
+  header .title-header {
+    font-size: 1.4em; } }
 
 form .autocomplete {
   /*the container must be positioned relative:*/

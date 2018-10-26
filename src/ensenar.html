@@ -12,14 +12,20 @@
 </head>
 
 <body>
-    <section>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="../assets/img/multiplicaLogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
-            </a>
-            <button id="signInBtn" onclick="logoutWithFireBase()" id="dropdownMenuButton">Salir</button>
-        </nav>
-    </section>
+    <header>
+        <div class="containter-fluid">
+            <div class="row box-header">
+                <div class="col-4 logo-header" href="#">
+                    <img src="./assets/img/multiplicaLogo.png" alt=" ">
+                    <h4 class="title-header ">Sinapsis</h4>
+                </div>
+                <div class="col-8 box-info">
+                    <p class="info-header">Sólo para colaboradores Multiplica. <span>Pide acceso ahora.</span></p>
+                    <button class="btn btn-login" onclick="googleLoginwithFireBase() ">Ingresa</button>
+                </div>
+            </div>
+        </div>
+    </header>
     <section class="container-fluid headlong" id="grad">
         <p class="pgrad">¿Qué deseas hacer?</p>
     </section>
