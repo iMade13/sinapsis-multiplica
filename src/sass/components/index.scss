@@ -59,6 +59,22 @@ header {
     }
 }
 
+
+/* == Carousel == **/
+
+section {
+    .carousel-title {
+        position: absolute;
+        right: 15%;
+        bottom: 180px;
+        left: 5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: $blanco;
+    }
+}
+
 // .center-align {
 //     text-align: center;
 //     margin-bottom: 4em;

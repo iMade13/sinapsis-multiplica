@@ -44,3 +44,14 @@ header .btn-login {
     align-items: center; }
   header .title-header {
     font-size: 1.4em; } }
+
+/* == Carousel == **/
+section .carousel-title {
+  position: absolute;
+  right: 15%;
+  bottom: 180px;
+  left: 5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff; }
