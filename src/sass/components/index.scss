@@ -67,11 +67,21 @@ section {
         position: absolute;
         right: 15%;
         bottom: 180px;
-        left: 5%;
+        left: 10%;
         z-index: 10;
         padding-top: 20px;
         padding-bottom: 20px;
         color: $blanco;
+        width: 539px;
+    }
+    .caption-carrusel {
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .caption-carrusel-2 {
+        font-size: 36px;
+        line-height: 49px;
+        color: $naranja;
     }
 }
 
@@ -79,6 +89,7 @@ section {
     text-align: center;
     margin-bottom: 4em;
 }
+
 .card-group-home {
     margin-top: 2em;
     margin-bottom: 4em;
@@ -91,9 +102,11 @@ section {
         }
     }
 }
+
 .pantallazo {
     margin-bottom: 4em;
 }
+
 .startBtn {
     height: 3em;
     width: 15em;
@@ -101,15 +114,18 @@ section {
     color: white;
     margin-top: 2em;
 }
+
 .subtituloColaborar {
     font-weight: 700;
     padding-bottom: 1em;
     padding-top: 1em;
     margin-bottom: 0;
 }
+
 .textoPantallazo {
     margin-bottom: 1em;
 }
+
 .beneficiosBtn {
     height: 50px;
     width: 207px;
@@ -120,24 +136,30 @@ section {
     justify-content: center;
     margin-top: 1em;
 }
+
 .queEs {
     padding-top: 2em;
     padding-bottom: 1em;
     text-align: center;
 }
+
 .tituloTalleres {
     margin-bottom: 3em;
 }
+
 .cursosProgramados {
     border-right: 1px solid #7E7E7E;
 }
+
 .footer-box {
     display: flex;
     margin-bottom: 4em;
 }
+
 .cajaTituloCursos {
     text-align: center;
 }
+
 .tituloCursos {
     text-align: center;
 }

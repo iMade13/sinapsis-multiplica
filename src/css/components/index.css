@@ -50,11 +50,21 @@ section .carousel-title {
   position: absolute;
   right: 15%;
   bottom: 180px;
-  left: 5%;
+  left: 10%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #ffffff; }
+  color: #ffffff;
+  width: 539px; }
+
+section .caption-carrusel {
+  font-size: 36px;
+  line-height: 49px; }
+
+section .caption-carrusel-2 {
+  font-size: 36px;
+  line-height: 49px;
+  color: #fe5d4b; }
 
 .center-align {
   text-align: center;
