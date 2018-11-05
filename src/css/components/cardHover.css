@@ -1,25 +1,17 @@
 #cards {
-  margin-top: -2%; }
+  margin-top: -20px; }
   #cards #ensenar-aprender {
-    width: 300px; }
+    margin-bottom: 50px; }
   #cards #bodyCardPriv {
-    height: 296px; }
-  #cards #footerCardPriv {
-    height: 150px; }
+    height: 200px; }
   #cards .arrow {
     display: none; }
   #cards #titleCard {
     text-align: center; }
-  #cards #ensenar-aprender:hover {
-    background-color: #000000 !important;
-    color: #ffffff;
-    width: 300px;
-    height: 447px; }
-    #cards #ensenar-aprender:hover #footerCardPriv {
-      display: none; }
-    #cards #ensenar-aprender:hover .arrow {
-      display: block;
-      font-size: 1000%;
-      text-align: center; }
+  #cards #textCard {
+    text-align: justify; }
+  #cards #ensenar-aprender:hover .arrow {
+    display: block;
+    text-align: center; }
   #cards a.arrow {
     color: #ffffff; }
