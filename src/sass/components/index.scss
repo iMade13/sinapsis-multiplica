@@ -78,11 +78,6 @@ section {
         font-size: 36px;
         line-height: 49px;
     }
-    .caption-carrusel-2 {
-        font-size: 36px;
-        line-height: 49px;
-        color: $naranja;
-    }
 }
 
 .center-align {
@@ -108,10 +103,10 @@ section {
 }
 
 .startBtn {
-    height: 3em;
-    width: 15em;
-    background-color: #3B3D41;
-    color: white;
+    height: 50px;
+    width: 240px;
+    background-color: $grisOscuro;
+    color: $blanco;
     margin-top: 2em;
 }
 
@@ -139,8 +134,10 @@ section {
 
 .queEs {
     padding-top: 2em;
-    padding-bottom: 1em;
     text-align: center;
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 32px;
 }
 
 .tituloTalleres {

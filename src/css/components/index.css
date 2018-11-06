@@ -61,11 +61,6 @@ section .caption-carrusel {
   font-size: 36px;
   line-height: 49px; }
 
-section .caption-carrusel-2 {
-  font-size: 36px;
-  line-height: 49px;
-  color: #fe5d4b; }
-
 .center-align {
   text-align: center;
   margin-bottom: 4em; }
@@ -84,10 +79,10 @@ section .caption-carrusel-2 {
   margin-bottom: 4em; }
 
 .startBtn {
-  height: 3em;
-  width: 15em;
-  background-color: #3B3D41;
-  color: white;
+  height: 50px;
+  width: 240px;
+  background-color: #3b3d41;
+  color: #ffffff;
   margin-top: 2em; }
 
 .subtituloColaborar {
@@ -111,8 +106,10 @@ section .caption-carrusel-2 {
 
 .queEs {
   padding-top: 2em;
-  padding-bottom: 1em;
-  text-align: center; }
+  text-align: center;
+  font-weight: 700;
+  line-height: 44px;
+  font-size: 32px; }
 
 .tituloTalleres {
   margin-bottom: 3em; }

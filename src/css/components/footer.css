@@ -7,12 +7,19 @@
   display: block; }
   .footerPages .h4Footer {
     color: #ff5000;
-    padding-top: 30px; }
+    padding-top: 30px;
+    font-size: 2em; }
   .footerPages .copyFooter {
     color: #7e7e7e;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding-top: 10px; }
   .footerPages .sinap {
-    text-align: justify; }
+    text-align: justify;
+    margin-top: 20px; }
+  .footerPages .socialNetwork {
+    display: flex;
+    font-size: 20px;
+    padding-top: 20%; }
   .footerPages .iconFooterPages {
     font-size: 200%;
     margin-left: 5%;
@@ -20,6 +27,4 @@
   .footerPages .iconFooterPages:hover {
     color: #ffffff; }
   .footerPages #iconsFoot {
-    text-align: right;
-    margin-bottom: auto;
-    margin-top: auto; }
+    padding-top: 5%; }
