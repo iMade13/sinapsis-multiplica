@@ -1,3 +1,85 @@
+@import 'var';
+
+/* == header == **/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    .box-header {
+        padding: 30px;
+        margin-right: 0;
+    }
+    .logo-header img {
+        width: 60px;
+        height: 60px;
+    }
+    .title-header {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 2em;
+    }
+    .box-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .info-header {
+        font-size: 16px;
+    }
+    span {
+        text-decoration-line: underline;
+    }
+    .btn-login {
+        width: 140px;
+        height: 50px;
+        background-color: $grisOscuro;
+        color: $blanco;
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    header {
+        .box-header {
+            padding-right: 0;
+        }
+        .info-header {
+            display: none;
+        }
+        .logo-header {
+            text-align: left;
+            display: inline-flex;
+            align-items: center;
+        }
+        .title-header {
+            font-size: 1.4em;
+        }
+    }
+}
+
+
+/* == Carousel == **/
+
+section {
+    .carousel-title {
+        position: absolute;
+        right: 15%;
+        bottom: 180px;
+        left: 10%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: $blanco;
+        width: 539px;
+    }
+    .caption-carrusel {
+        font-size: 36px;
+        line-height: 49px;
+    }
+}
+
 .center-align {
     text-align: center;
     margin-bottom: 4em;
@@ -21,10 +103,10 @@
 }
 
 .startBtn {
-    height: 3em;
-    width: 15em;
-    background-color: #3B3D41;
-    color: white;
+    height: 50px;
+    width: 240px;
+    background-color: $grisOscuro;
+    color: $blanco;
     margin-top: 2em;
 }
 
@@ -52,8 +134,10 @@
 
 .queEs {
     padding-top: 2em;
-    padding-bottom: 1em;
     text-align: center;
+    font-weight: 700;
+    line-height: 44px;
+    font-size: 32px;
 }
 
 .tituloTalleres {

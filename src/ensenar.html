@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/mxlogo.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
@@ -13,25 +12,22 @@
 </head>
 
 <body>
-    <section class="navPriv">
-        <nav class="navbar navbar">
-            <a class="navbar-brand" href="#">
-                <img src="../assets/img/mxlogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
-            </a>
-            <div class="dropdown">
-                <button class="btn dropdown-toggle" class="profile" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-user"></i>
-            UserName
-          </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="./privado.html">Home</a>
-                    <a class="dropdown-item" id="signInBtn" onclick="logoutWithFireBase()">Log Out</a>
+    <header>
+        <div class="containter-fluid">
+            <div class="row box-header">
+                <div class="col-4 logo-header" href="#">
+                    <img src="./assets/img/multiplicaLogo.png" alt=" ">
+                    <h4 class="title-header ">Sinapsis</h4>
+                </div>
+                <div class="col-8 box-info">
+                    <p class="info-header">Sólo para colaboradores Multiplica. <span>Pide acceso ahora.</span></p>
+                    <button class="btn btn-login" onclick="googleLoginwithFireBase() ">Ingresa</button>
                 </div>
             </div>
-        </nav>
-    </section>
-    <section class="container-fluid" id="grad">
-        <p class="pgrad">Quiero enseñar</p>
+        </div>
+    </header>
+    <section class="container-fluid headlong" id="grad">
+        <p class="pgrad">¿Qué deseas hacer?</p>
     </section>
     <section class="container">
         <div class="row">
@@ -53,9 +49,9 @@
                     <div class="row">
                         <div class="col-3">
                             <div class="custom-control custom-radio">
-                              <input type="radio" id="customRadio1" value="online" name="customRadio" class="custom-control-input">
-                              <label class="custom-control-label" for="customRadio1">Online</label>
-                            </div>                            
+                                <input type="radio" id="customRadio1" value="online" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">Online</label>
+                            </div>
                         </div>
                         <div class="col-3">
                             <div class="custom-control custom-radio">
@@ -64,24 +60,47 @@
                             </div>
                         </div>
                     </div>
-
                     <div>
                         <label for="">Dia y hora del evento</label>
-                        <input type="datetime-local" class="form-control input-cursos" id="fechas">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="date" class="form-control input-cursos" id="fecha">
+                        </div>
+                        <div class="col-6">
+                            <select type="time" id="time" class="form-control">                                                                            
+                                    <option value="7:00">7:00 - 8:00</option>
+                                    <option value="8:00">8:00 - 9:00</option>
+                                    <option value="9:00">9:00 - 10:00</option>                                                           
+                                    <option value="10:00">10:00 - 11:00</option>                             
+                                    <option value="11:00">11:00 - 12:00</option>                                     
+                                    <option value="12:00">12:00 - 13:00</option>                                     
+                                    <option value="1:00">14:00 - 15:00</option>                            
+                                    <option value="2:00">15:00 - 16:00</option>                               
+                                    <option value="3:00">16:00 - 17:00</option>                                      
+                                    <option value="4:00">17:00 - 18:00</option>                                 
+                                    <option value="5:00">19:00 - 20:00</option>
+                                    <option value="6:00">21:00 - 22:00</option>
+                                </select>
+                        </div>
                     </div>
                     <div class="autocomplete box-lugar">
                         <label for="">Lugar</label>
                         <input id="inputLugar" class="form-control input-cursos" type="text">
                     </div>
                     <div class="box-evento">
-                        <button class="btn-evento" onclick="guardarCursos()">Crear Evento</button>
-                        <a href="" class="cancel">Cancelar</a>
+                        <button class="btn-evento" onclick="guardarCursos()" id="dropdownMenuButton">Crear Evento</button>
+
                     </div>
                 </form>
             </div>
         </div>
+
+
+
+
     </section>
-    
     <footer class="footerPages">
         <div class="container">
             <div class="row">

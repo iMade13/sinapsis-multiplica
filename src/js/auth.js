@@ -13,14 +13,12 @@ firebase.initializeApp(config);
 function googleLoginwithFireBase() {
 
     let provider = new firebase.auth.GoogleAuthProvider();
-    
 
     firebase.auth().signInWithPopup(provider).then(function(result) {
 
         redirectFromLogin()
     }).catch(function(e) {
         console.log(e)
-        console.log(result);
     });
 }
 
@@ -32,7 +30,7 @@ function redirectFromLogin() {
 function logoutWithFireBase() {
     firebase.auth().signOut()
         .then(() => {
-            location.href = "index.html";
+            location.href = "../../index.html";
             console.log('usuario finalizo su sesion')
         })
         .catch();

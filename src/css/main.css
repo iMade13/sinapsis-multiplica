@@ -9,209 +9,68 @@
 .navPriv:hover a {
   color: #000000; }
 
+/* == header == **/
 * {
   font-family: 'Open Sans', sans-serif; }
 
+header .box-header {
+  padding: 30px;
+  margin-right: 0; }
 
-#dropdownMenuButton {
-  background-color: #ff5000;
-  color: #ffffff; }
+header .logo-header img {
+  width: 60px;
+  height: 60px; }
 
-#grad {
-  background-image: linear-gradient(to right, #FF5000, #FFCD00);
-  height: 150px;
-  margin: 0%; }
-  #grad .pgrad {
-    color: #ffffff;
-    font-size: 150%;
-    text-align: center;
-    padding-top: 50px; }
+header .title-header {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 2em; }
 
-.quest {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-align: center; }
+header .box-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
 
-#accordion .card-header {
-  background-color: #ff5000; }
-
-#accordion .active {
-  background-color: #000000;
-  color: #ffffff; }
-
-#accordion .btn-link {
-  color: #ffffff; }
-
-#accordion .btn-link:hover {
-  color: #ffffff; }
-
-#accordion .fa, #accordion .fas {
-  font-weight: 900;
-  float: right;
-  color: #ffffff; }
-
-.btn btn-link i .fas fa-angle-down {
-  right: 12px;
-  left: auto;
+header .info-header {
   font-size: 16px; }
 
-@media (max-width: 414px) {
-  #accordion #collapseButtonAccordion {
-    font-size: 100%;
-    white-space: normal;
-    text-align: left; }
-  #cards, .col-5 {
-    max-width: 55%;
-    padding-bottom: 15%;
-    padding-left: 10%; } }
+header span {
+  text-decoration-line: underline; }
 
-.navPriv a {
-  color: #000000; }
-
-.navPriv:hover a {
-  color: #000000; }
-
-.footerPages {
-  margin-top: 5%;
-  background-color: #000000;
+header .btn-login {
+  width: 140px;
+  height: 50px;
+  background-color: #3b3d41;
   color: #ffffff;
-  padding-bottom: 60px; }
-  .footerPages .h4Footer {
-    color: #ff5000;
-    padding-top: 30px; }
-  .footerPages .copyFooter {
-    color: #7e7e7e;
-    text-transform: uppercase; }
-  .footerPages .sinap {
-    text-align: justify; }
-  .footerPages .iconFooterPages {
-    font-size: 200%;
-    margin-left: 5%;
-    color: #ff5000; }
-  .footerPages .iconFooterPages:hover {
-    color: #ffffff; }
-  .footerPages #iconsFoot {
-    text-align: right;
-    margin-bottom: auto;
-    margin-top: auto; }
-  .footerPages header {
-    margin-top: 3%; }
-    .footerPages header .fa,
-    .footerPages header .fas {
-      font-weight: 800;
-      font-size: 100%; }
-  .footerPages nav a {
-    color: #000000; }
-  .footerPages footer {
-    margin-top: 5%;
-    background-color: #000000;
-    color: #ffffff;
-    padding-bottom: 60px; }
-    .footerPages footer #h4 {
-      color: #ff5000;
-      padding-top: 30px; }
-    .footerPages footer #copy {
-      color: #7e7e7e;
-      text-transform: uppercase; }
-    .footerPages footer #sinap {
-      text-align: justify; }
-    .footerPages footer i {
-      font-size: 200%;
-      margin-left: 5%;
-      color: #ff5000; }
-    .footerPages footer i:hover {
-      color: #ffffff; }
-    .footerPages footer #icon {
-      text-align: right;
-      margin-bottom: auto;
-      margin-top: auto; }
-  .footerPages #grad {
-    background-image: linear-gradient(to right, #FF5000, #FFCD00);
-    height: 150px;
-    margin: 0%; }
-    .footerPages #grad .pgrad {
-      color: white;
-      font-size: 150%;
-      text-align: center;
-      padding-top: 50px; }
-  .footerPages #quest {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%; }
-    .footerPages #quest #cards {
-      margin-top: -2%; }
-      .footerPages #quest #cards #enseñar-aprender {
-        width: 300px; }
-      .footerPages #quest #cards #bodyCardPriv {
-        height: 296px; }
-      .footerPages #quest #cards #footerCardPriv {
-        height: 150px; }
-      .footerPages #quest #cards .arrow {
-        display: none; }
-      .footerPages #quest #cards #titleCard {
-        text-align: center; }
-      .footerPages #quest #cards #textCard {
-        text-align: justify; }
-      .footerPages #quest #cards #enseñar-aprender:hover {
-        background-color: #000000 !important;
-        color: #ffffff;
-        width: 300px;
-        height: 447px; }
-        .footerPages #quest #cards #enseñar-aprender:hover #footerCardPriv {
-          display: none; }
-        .footerPages #quest #cards #enseñar-aprender:hover .arrow {
-          display: block;
-          font-size: 1000%;
-          text-align: center; }
-        .footerPages #quest #cards #enseñar-aprender:hover .card {
-          width: 300px; }
-        .footerPages #quest #cards #enseñar-aprender:hover .card-body {
-          height: 296px; }
-        .footerPages #quest #cards #enseñar-aprender:hover .card-footer {
-          height: 150px; }
-        .footerPages #quest #cards #enseñar-aprender:hover #arrow {
-          display: none; }
-        .footerPages #quest #cards #enseñar-aprender:hover h1 {
-          text-align: center; }
-        .footerPages #quest #cards #enseñar-aprender:hover h6 {
-          text-align: justify; }
-        .footerPages #quest #cards #enseñar-aprender:hover .card:hover {
-          background-color: #000000 !important;
-          color: #ffffff;
-          width: 300px;
-          height: 447px; }
-          .footerPages #quest #cards #enseñar-aprender:hover .card:hover .card-footer {
-            display: none; }
-          .footerPages #quest #cards #enseñar-aprender:hover .card:hover #arrow {
-            display: block;
-            font-size: 1000%;
-            text-align: center; }
-        .footerPages #quest #cards #enseñar-aprender:hover a.arrow {
-          color: #ffffff; }
-      .footerPages #quest #cards #accordion #collapseButtonAccordion {
-        color: #000000; }
-      .footerPages #quest #cards #accordion #collapseButtonAccordion:hover {
-        color: #000000; }
-      .footerPages #quest #cards #accordion #quest {
-        text-align: center; }
-      .footerPages #quest #cards #accordion .fa,
-      .footerPages #quest #cards #accordion .fas {
-        font-weight: 900;
-        float: right; }
-      .footerPages #quest #cards .btn btn-link i .fas fa-angle-down {
-        right: 12px;
-        left: auto;
-        font-size: 16px; }
-        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link {
-          color: #000000; }
-        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link:hover {
-          color: #000000; }
-        .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon #quest {
-          text-align: center; }
+  margin-left: 25px; }
 
+@media only screen and (max-width: 465px) {
+  header .box-header {
+    padding-right: 0; }
+  header .info-header {
+    display: none; }
+  header .logo-header {
+    text-align: left;
+    display: inline-flex;
+    align-items: center; }
+  header .title-header {
+    font-size: 1.4em; } }
+
+/* == Carousel == **/
+section .carousel-title {
+  position: absolute;
+  right: 15%;
+  bottom: 180px;
+  left: 10%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  width: 539px; }
+
+section .caption-carrusel {
+  font-size: 36px;
+  line-height: 49px; }
 
 .center-align {
   text-align: center;
@@ -231,10 +90,10 @@
   margin-bottom: 4em; }
 
 .startBtn {
-  height: 3em;
-  width: 15em;
-  background-color: #3B3D41;
-  color: white;
+  height: 50px;
+  width: 240px;
+  background-color: #3b3d41;
+  color: #ffffff;
   margin-top: 2em; }
 
 .subtituloColaborar {
@@ -258,8 +117,10 @@
 
 .queEs {
   padding-top: 2em;
-  padding-bottom: 1em;
-  text-align: center; }
+  text-align: center;
+  font-weight: 700;
+  line-height: 44px;
+  font-size: 32px; }
 
 .tituloTalleres {
   margin-bottom: 3em; }
@@ -295,8 +156,7 @@ form .autocomplete {
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
-  border-bottom: 1px solid #d4d4d4;
-  background: gainsboro; }
+  border-bottom: 1px solid #d4d4d4; }
 
 label {
   margin-top: 20px; }
@@ -321,10 +181,16 @@ div .box-evento {
 div.custon-radio {
   margin-top: 50px; }
 
-#inputTemas div {
-  color: #495057;
-  background-color: #fff; }
+.headlong {
+  text-align: center; }
+  .headlong .pgrad {
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 600;
+    display: inline-block; }
 
+.footerPages {
+  width: 100%; }
 
 div .tarjetaExito {
   margin-top: 4em;
@@ -335,15 +201,24 @@ div .tarjetaExito {
   margin-top: 5%;
   background-color: #000000;
   color: #ffffff;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  width: 100%;
+  display: block; }
   .footerPages .h4Footer {
     color: #ff5000;
-    padding-top: 30px; }
+    padding-top: 30px;
+    font-size: 2em; }
   .footerPages .copyFooter {
     color: #7e7e7e;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding-top: 10px; }
   .footerPages .sinap {
-    text-align: justify; }
+    text-align: justify;
+    margin-top: 20px; }
+  .footerPages .socialNetwork {
+    display: flex;
+    font-size: 20px;
+    padding-top: 20%; }
   .footerPages .iconFooterPages {
     font-size: 200%;
     margin-left: 5%;
@@ -351,74 +226,28 @@ div .tarjetaExito {
   .footerPages .iconFooterPages:hover {
     color: #ffffff; }
   .footerPages #iconsFoot {
-    text-align: right;
-    margin-bottom: auto;
-    margin-top: auto; }
+    padding-top: 5%; }
 
 #cards {
-  margin-top: -2%; }
+  margin-top: -20px; }
   #cards #ensenar-aprender {
-    width: 300px; }
+    margin-bottom: 50px; }
   #cards #bodyCardPriv {
-    height: 296px; }
-  #cards #footerCardPriv {
-    height: 150px; }
+    height: 200px; }
   #cards .arrow {
     display: none; }
   #cards #titleCard {
     text-align: center; }
-  #cards #ensenar-aprender:hover {
   #cards #textCard {
     text-align: justify; }
-    background-color: #000000 !important;
-    color: #ffffff;
-    width: 300px;
-    height: 447px; }
-
-    #cards #ensenar-aprender:hover #footerCardPriv {
-      display: none; }
-    #cards #ensenar-aprender:hover .arrow {
-     display: block;
-      font-size: 1000%;
-      text-align: center; }
+  #cards #ensenar-aprender:hover .arrow {
+    display: block;
+    text-align: center; }
   #cards a.arrow {
     color: #ffffff; }
 
-
-#proyectos {
-  margin-top: -2%;
-  margin-bottom: 3%;
-  margin-left: 38%; }
-
-@media (max-width: 414px) {
-  #proyectos {
-    margin-left: 3%; } }
-
-* .row {
-  width: 100vw; }
-
-header {
-  margin-top: 3%; }
-
-header .fa,
-header .fas {
-  font-weight: 800;
-  font-size: 100%; }
-
-footer {
-  position: absolute;
-  bottom: 0%; }
-
-footer #sinap {
-  text-align: justify; }
-
-footer i {
-  font-size: 200%;
-  margin-left: 5%; }
-
 #grad {
   background-image: linear-gradient(to right, #ff5000, #FFCD00);
-  width: 100vw;
   height: 150px; }
 
 #grad #pgrad {
@@ -470,4 +299,3 @@ footer i {
   color: #ffffff !important;
   background-color: #b43306 !important;
   border: 1px solid #b43306 !important; }
-
