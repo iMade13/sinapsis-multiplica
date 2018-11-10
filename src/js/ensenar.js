@@ -172,3 +172,22 @@ function guardarCursos() {
             console.log("Error adding document: ", error);
         });
 }
+// leer los documentos
+var wTable = document.getElementById('wTable');
+// repite por cada documento dentro de visi y va a pintar id
+// onSnapshot para escuchar en tiempo real
+db.collection("evento").onSnapshot((querySnapshot) => {
+    // limpiamos la tabla
+    wTable.innerHTML ='';
+    querySnapshot.forEach((doc) => {
+        console.log(`${doc.id} => ${doc.data()}`);
+        wTable.innerHTML +=` 
+        <tr>
+        <th scope="col">${doc.data().nombreCompleto}</th>
+        <th scope="col">${doc.data().titulo}</th>
+        <th scope="col">${doc.data().lugar}</th>
+       
+
+        </tr>`
+    });
+});
