@@ -1,0 +1,26 @@
+.userIcon{
+    font-size: 30px;
+    color:#ff5000;
+}
+.teachLearnCard:hover {
+background-color: #ff5000;
+color:white;
+}
+.accordion{
+    background-color: #ff5000;
+    color:white;
+}
+.question{
+    background-color: #7e7e7e;
+    color:black;
+}
+.question:hover{
+    background-color: #7e7e7e;
+    color: white;
+}
+.quest{
+    text-align: center;
+}
+.pgrad{
+    color:white;
+}
