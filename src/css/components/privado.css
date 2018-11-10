@@ -7,7 +7,7 @@ background-color: #ff5000;
 color:white;
 }
 .accordion{
-    background-color: #fe5d4b;
+    background-color: #ff5000;
     color:white;
 }
 .question{
@@ -20,4 +20,7 @@ color:white;
 }
 .quest{
     text-align: center;
+}
+.pgrad{
+    color:white;
 }
